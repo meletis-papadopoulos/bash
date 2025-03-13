@@ -1,0 +1,12 @@
+set nu
+set et
+set ts=2
+set sw=2
+autocmd BufNewFile,BufRead * setlocal formatoptions-=cro
+set ignorecase
+set smartcase
+set visualbell
+set background=dark
+syntax enable
+colorscheme pablo 
+"colorscheme slate

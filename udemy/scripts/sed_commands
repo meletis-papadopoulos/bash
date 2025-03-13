@@ -1,0 +1,32 @@
+# Delete matching string (keyword)
+sed -i '/<string>/d' <file>
+
+# Delete empty lines
+sed -i '/^$/d' <file>
+
+# Remove first line of a file
+sed -i '1d' <file>
+
+# Remove first 2 lines
+sed -i '1,2d' <file>
+
+# Substitute tab with space characters
+sed -i 's/\t/ /g' <file>
+
+# Substitute space with tab characters
+sed -i 's/ /\t/g' <file>
+
+# Print lines from (i.e. 12-18)
+sed -n 12,18p <file>
+
+# Print anything, but lines (i.e. 12-18)
+sed 12,18d <file>
+
+# Add empty line after each line
+sed -i G <file>
+
+# Change all occurencies of <string> with <new_string>, except the eight one
+sed -i '8!s/<string>/<new_string>/g' <file>
+
+# Change within Vim editor
+:%s/<string>/<new_string>/
