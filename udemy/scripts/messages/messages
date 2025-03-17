@@ -1,0 +1,1725 @@
+Mar 16 13:16:01 centos7 rsyslogd: [origin software="rsyslogd" swVersion="8.24.0-57.el7_9.3" x-pid="1135" x-info="http://www.rsyslog.com"] rsyslogd was HUPed
+Mar 16 13:20:01 centos7 systemd: Started Session 9 of user root.
+Mar 16 13:30:01 centos7 systemd: Started Session 10 of user root.
+Mar 16 13:40:01 centos7 systemd: Started Session 11 of user root.
+Mar 16 13:50:01 centos7 systemd: Started Session 12 of user root.
+Mar 16 13:56:01 centos7 systemd: Removed slice User Slice of root.
+Mar 16 14:00:01 centos7 systemd: Created slice User Slice of root.
+Mar 16 14:00:01 centos7 systemd: Started Session 13 of user root.
+Mar 16 14:00:01 centos7 systemd: Removed slice User Slice of root.
+Mar 16 14:01:01 centos7 systemd: Created slice User Slice of root.
+Mar 16 14:01:01 centos7 systemd: Started Session 14 of user root.
+Mar 16 14:01:01 centos7 systemd: Removed slice User Slice of root.
+Mar 16 14:10:01 centos7 systemd: Created slice User Slice of root.
+Mar 16 14:10:01 centos7 systemd: Started Session 15 of user root.
+Mar 16 14:10:01 centos7 systemd: Removed slice User Slice of root.
+Mar 16 14:20:01 centos7 systemd: Created slice User Slice of root.
+Mar 16 14:20:01 centos7 systemd: Started Session 16 of user root.
+Mar 16 14:20:01 centos7 systemd: Removed slice User Slice of root.
+Mar 16 14:30:01 centos7 systemd: Created slice User Slice of root.
+Mar 16 14:30:01 centos7 systemd: Started Session 17 of user root.
+Mar 16 14:30:01 centos7 systemd: Removed slice User Slice of root.
+Mar 16 14:40:01 centos7 systemd: Created slice User Slice of root.
+Mar 16 14:40:01 centos7 systemd: Started Session 18 of user root.
+Mar 16 14:40:01 centos7 systemd: Removed slice User Slice of root.
+Mar 16 14:50:01 centos7 systemd: Created slice User Slice of root.
+Mar 16 14:50:01 centos7 systemd: Started Session 19 of user root.
+Mar 16 14:50:01 centos7 systemd: Removed slice User Slice of root.
+Mar 16 15:00:01 centos7 systemd: Created slice User Slice of root.
+Mar 16 15:00:01 centos7 systemd: Started Session 20 of user root.
+Mar 16 15:00:01 centos7 systemd: Removed slice User Slice of root.
+Mar 16 15:00:08 centos7 systemd-logind: Removed session 2.
+Mar 16 15:00:08 centos7 systemd: Removed slice User Slice of vagrant.
+Mar 16 15:00:16 centos7 systemd: Created slice User Slice of vagrant.
+Mar 16 15:00:16 centos7 systemd: Started Session 21 of user vagrant.
+Mar 16 15:00:16 centos7 systemd-logind: New session 21 of user vagrant.
+Mar 16 15:01:01 centos7 kernel: Initializing cgroup subsys cpuset
+Mar 16 15:01:01 centos7 kernel: Initializing cgroup subsys cpu
+Mar 16 15:01:01 centos7 kernel: Initializing cgroup subsys cpuacct
+Mar 16 15:01:01 centos7 kernel: Linux version 3.10.0-1160.119.1.el7.x86_64 (mockbuild@kbuilder.bsys.centos.org) (gcc version 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) ) #1 SMP Tue Jun 4 14:43:51 UTC 2024
+Mar 16 15:01:01 centos7 kernel: Command line: BOOT_IMAGE=/vmlinuz-3.10.0-1160.119.1.el7.x86_64 root=/dev/mapper/vg00-lv_root ro no_timer_check console=tty0 console=ttyS0,115200 net.ifnames=0 biosdevname=0 crashkernel=auto rd.lvm.lv=vg00/lv_root rd.lvm.lv=vg00/lv_swap rhgb quiet LANG=en_US.UTF-8
+Mar 16 15:01:01 centos7 kernel: e820: BIOS-provided physical RAM map:
+Mar 16 15:01:01 centos7 kernel: BIOS-e820: [mem 0x0000000000000000-0x000000000009fbff] usable
+Mar 16 15:01:01 centos7 kernel: BIOS-e820: [mem 0x000000000009fc00-0x000000000009ffff] reserved
+Mar 16 15:01:01 centos7 kernel: BIOS-e820: [mem 0x00000000000f0000-0x00000000000fffff] reserved
+Mar 16 15:01:01 centos7 kernel: BIOS-e820: [mem 0x0000000000100000-0x000000003ffeffff] usable
+Mar 16 15:01:01 centos7 kernel: BIOS-e820: [mem 0x000000003fff0000-0x000000003fffffff] ACPI data
+Mar 16 15:01:01 centos7 kernel: BIOS-e820: [mem 0x00000000fec00000-0x00000000fec00fff] reserved
+Mar 16 15:01:01 centos7 kernel: BIOS-e820: [mem 0x00000000fee00000-0x00000000fee00fff] reserved
+Mar 16 15:01:01 centos7 kernel: BIOS-e820: [mem 0x00000000fffc0000-0x00000000ffffffff] reserved
+Mar 16 15:01:01 centos7 kernel: NX (Execute Disable) protection: active
+Mar 16 15:01:01 centos7 kernel: SMBIOS 2.5 present.
+Mar 16 15:01:01 centos7 kernel: DMI: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+Mar 16 15:01:01 centos7 kernel: Hypervisor detected: KVM
+Mar 16 15:01:01 centos7 kernel: e820: last_pfn = 0x3fff0 max_arch_pfn = 0x400000000
+Mar 16 15:01:01 centos7 kernel: PAT configuration [0-7]: WB  WC  UC- UC  WB  WP  UC- UC  
+Mar 16 15:01:01 centos7 kernel: found SMP MP-table at [mem 0x0009fbf0-0x0009fbff] mapped at [ffffffffff200bf0]
+Mar 16 15:01:01 centos7 kernel: RAMDISK: [mem 0x358b2000-0x36c50fff]
+Mar 16 15:01:01 centos7 kernel: Early table checksum verification disabled
+Mar 16 15:01:01 centos7 kernel: ACPI: RSDP 00000000000e0000 00024 (v02 VBOX  )
+Mar 16 15:01:01 centos7 kernel: ACPI: XSDT 000000003fff0030 0003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)
+Mar 16 15:01:01 centos7 kernel: ACPI: FACP 000000003fff00f0 000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+Mar 16 15:01:01 centos7 kernel: ACPI: DSDT 000000003fff0610 02353 (v02 VBOX   VBOXBIOS 00000002 INTL 20100528)
+Mar 16 15:01:01 centos7 kernel: ACPI: FACS 000000003fff0200 00040
+Mar 16 15:01:01 centos7 kernel: ACPI: APIC 000000003fff0240 0005C (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+Mar 16 15:01:01 centos7 kernel: ACPI: SSDT 000000003fff02a0 0036C (v01 VBOX   VBOXCPUT 00000002 INTL 20100528)
+Mar 16 15:01:01 centos7 kernel: No NUMA configuration found
+Mar 16 15:01:01 centos7 kernel: Faking a node at [mem 0x0000000000000000-0x000000003ffeffff]
+Mar 16 15:01:01 centos7 kernel: NODE_DATA(0) allocated [mem 0x3ffc9000-0x3ffeffff]
+Mar 16 15:01:01 centos7 kernel: crashkernel=auto resulted in zero bytes of reserved memory.
+Mar 16 15:01:01 centos7 kernel: kvm-clock: cpu 0, msr 0:3ff78001, primary cpu clock
+Mar 16 15:01:01 centos7 kernel: kvm-clock: Using msrs 4b564d01 and 4b564d00
+Mar 16 15:01:01 centos7 kernel: kvm-clock: using sched offset of 8131219166 cycles
+Mar 16 15:01:01 centos7 kernel: Zone ranges:
+Mar 16 15:01:01 centos7 kernel:  DMA      [mem 0x00001000-0x00ffffff]
+Mar 16 15:01:01 centos7 kernel:  DMA32    [mem 0x01000000-0xffffffff]
+Mar 16 15:01:01 centos7 kernel:  Normal   empty
+Mar 16 15:01:01 centos7 kernel: Movable zone start for each node
+Mar 16 15:01:01 centos7 kernel: Early memory node ranges
+Mar 16 15:01:01 centos7 kernel:  node   0: [mem 0x00001000-0x0009efff]
+Mar 16 15:01:01 centos7 kernel:  node   0: [mem 0x00100000-0x3ffeffff]
+Mar 16 15:01:01 centos7 kernel: Initmem setup node 0 [mem 0x00001000-0x3ffeffff]
+Mar 16 15:01:01 centos7 kernel: ACPI: PM-Timer IO Port: 0x4008
+Mar 16 15:01:01 centos7 kernel: ACPI: LAPIC (acpi_id[0x00] lapic_id[0x00] enabled)
+Mar 16 15:01:01 centos7 kernel: ACPI: LAPIC (acpi_id[0x01] lapic_id[0x01] enabled)
+Mar 16 15:01:01 centos7 kernel: ACPI: IOAPIC (id[0x02] address[0xfec00000] gsi_base[0])
+Mar 16 15:01:01 centos7 kernel: IOAPIC[0]: apic_id 2, version 32, address 0xfec00000, GSI 0-23
+Mar 16 15:01:01 centos7 kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Mar 16 15:01:01 centos7 kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 low level)
+Mar 16 15:01:01 centos7 kernel: Using ACPI (MADT) for SMP configuration information
+Mar 16 15:01:01 centos7 kernel: smpboot: Allowing 2 CPUs, 0 hotplug CPUs
+Mar 16 15:01:01 centos7 kernel: PM: Registered nosave memory: [mem 0x0009f000-0x0009ffff]
+Mar 16 15:01:01 centos7 kernel: PM: Registered nosave memory: [mem 0x000a0000-0x000effff]
+Mar 16 15:01:01 centos7 kernel: PM: Registered nosave memory: [mem 0x000f0000-0x000fffff]
+Mar 16 15:01:01 centos7 kernel: e820: [mem 0x40000000-0xfebfffff] available for PCI devices
+Mar 16 15:01:01 centos7 kernel: Booting paravirtualized kernel on KVM
+Mar 16 15:01:01 centos7 kernel: Detected CPU family 6 model 140 stepping 2
+Mar 16 15:01:01 centos7 kernel: Warning: Intel Processor - this hardware has not undergone upstream testing. Please consult http://wiki.centos.org/FAQ for more information
+Mar 16 15:01:01 centos7 kernel: setup_percpu: NR_CPUS:5120 nr_cpumask_bits:2 nr_cpu_ids:2 nr_node_ids:1
+Mar 16 15:01:01 centos7 kernel: percpu: Embedded 38 pages/cpu s118784 r8192 d28672 u1048576
+Mar 16 15:01:01 centos7 kernel: PV qspinlock hash table entries: 256 (order: 0, 4096 bytes)
+Mar 16 15:01:01 centos7 kernel: Built 1 zonelists in Node order, mobility grouping on.  Total pages: 257913
+Mar 16 15:01:01 centos7 kernel: Policy zone: DMA32
+Mar 16 15:01:01 centos7 kernel: Kernel command line: BOOT_IMAGE=/vmlinuz-3.10.0-1160.119.1.el7.x86_64 root=/dev/mapper/vg00-lv_root ro no_timer_check console=tty0 console=ttyS0,115200 net.ifnames=0 biosdevname=0 crashkernel=auto rd.lvm.lv=vg00/lv_root rd.lvm.lv=vg00/lv_swap rhgb quiet LANG=en_US.UTF-8
+Mar 16 15:01:01 centos7 kernel: PID hash table entries: 4096 (order: 3, 32768 bytes)
+Mar 16 15:01:01 centos7 kernel: x86/fpu: xstate_offset[2]: 0240, xstate_sizes[2]: 0100
+Mar 16 15:01:01 centos7 kernel: xsave: enabled xstate_bv 0x7, cntxt size 0x340 using standard form
+Mar 16 15:01:01 centos7 kernel: Memory: 991372k/1048512k available (7988k kernel code, 392k absent, 56748k reserved, 5756k data, 2176k init)
+Mar 16 15:01:01 centos7 kernel: SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=2, Nodes=1
+Mar 16 15:01:01 centos7 kernel: x86/pti: Unmapping kernel while in userspace
+Mar 16 15:01:01 centos7 kernel: Hierarchical RCU implementation.
+Mar 16 15:01:01 centos7 kernel: #011RCU restricting CPUs from NR_CPUS=5120 to nr_cpu_ids=2.
+Mar 16 15:01:01 centos7 kernel: NR_IRQS:327936 nr_irqs:440 0
+Mar 16 15:01:01 centos7 kernel: Console: colour VGA+ 80x25
+Mar 16 15:01:01 centos7 kernel: console [tty0] enabled
+Mar 16 15:01:01 centos7 kernel: console [ttyS0] enabled
+Mar 16 15:01:01 centos7 kernel: allocated 8388608 bytes of page_cgroup
+Mar 16 15:01:01 centos7 kernel: please try 'cgroup_disable=memory' option if you don't want memory cgroups
+Mar 16 15:01:01 centos7 kernel: tsc: Detected 2496.000 MHz processor
+Mar 16 15:01:01 centos7 kernel: Calibrating delay loop (skipped) preset value.. 4992.00 BogoMIPS (lpj=2496000)
+Mar 16 15:01:01 centos7 kernel: pid_max: default: 32768 minimum: 301
+Mar 16 15:01:01 centos7 kernel: Security Framework initialized
+Mar 16 15:01:01 centos7 kernel: SELinux:  Initializing.
+Mar 16 15:01:01 centos7 kernel: Yama: becoming mindful.
+Mar 16 15:01:01 centos7 kernel: Dentry cache hash table entries: 131072 (order: 8, 1048576 bytes)
+Mar 16 15:01:01 centos7 kernel: Inode-cache hash table entries: 65536 (order: 7, 524288 bytes)
+Mar 16 15:01:01 centos7 kernel: Mount-cache hash table entries: 2048 (order: 2, 16384 bytes)
+Mar 16 15:01:01 centos7 kernel: Mountpoint-cache hash table entries: 2048 (order: 2, 16384 bytes)
+Mar 16 15:01:01 centos7 kernel: Initializing cgroup subsys memory
+Mar 16 15:01:01 centos7 kernel: Initializing cgroup subsys devices
+Mar 16 15:01:01 centos7 kernel: Initializing cgroup subsys freezer
+Mar 16 15:01:01 centos7 kernel: Initializing cgroup subsys net_cls
+Mar 16 15:01:01 centos7 kernel: Initializing cgroup subsys blkio
+Mar 16 15:01:01 centos7 kernel: Initializing cgroup subsys perf_event
+Mar 16 15:01:01 centos7 kernel: Initializing cgroup subsys hugetlb
+Mar 16 15:01:01 centos7 kernel: Initializing cgroup subsys pids
+Mar 16 15:01:01 centos7 kernel: Initializing cgroup subsys net_prio
+Mar 16 15:01:01 centos7 kernel: Last level iTLB entries: 4KB 0, 2MB 0, 4MB 0
+Mar 16 15:01:01 centos7 kernel: Last level dTLB entries: 4KB 0, 2MB 0, 4MB 0
+Mar 16 15:01:01 centos7 kernel: tlb_flushall_shift: 6
+Mar 16 15:01:01 centos7 kernel: FEATURE SPEC_CTRL Not Present
+Mar 16 15:01:01 centos7 kernel: FEATURE IBPB_SUPPORT Not Present
+Mar 16 15:01:01 centos7 kernel: Spectre V1 : Mitigation: Load fences, usercopy/swapgs barriers and __user pointer sanitization
+Mar 16 15:01:01 centos7 kernel: Spectre V2 : Vulnerable: Retpoline without IBPB
+Mar 16 15:01:01 centos7 kernel: Filling RSB on context switch
+Mar 16 15:01:01 centos7 kernel: Speculative Store Bypass: Vulnerable
+Mar 16 15:01:01 centos7 kernel: MDS: Mitigation: Clear CPU buffers
+Mar 16 15:01:01 centos7 kernel: Freeing SMP alternatives: 28k freed
+Mar 16 15:01:01 centos7 kernel: ACPI: Core revision 20130517
+Mar 16 15:01:01 centos7 kernel: ACPI: All ACPI Tables successfully acquired
+Mar 16 15:01:01 centos7 kernel: ftrace: allocating 29713 entries in 117 pages
+Mar 16 15:01:01 centos7 kernel: Enabling x2apic
+Mar 16 15:01:01 centos7 kernel: Enabled x2apic
+Mar 16 15:01:01 centos7 kernel: Switched APIC routing to physical x2apic.
+Mar 16 15:01:01 centos7 kernel: ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+Mar 16 15:01:01 centos7 kernel: smpboot: CPU0: 11th Gen Intel(R) Core(TM) i5-11320H @ 3.20GHz (fam: 06, model: 8c, stepping: 02)
+Mar 16 15:01:01 centos7 kernel: Performance Events: unsupported p6 CPU model 140 no PMU driver, software events only.
+Mar 16 15:01:01 centos7 kernel: KVM setup paravirtual spinlock
+Mar 16 15:01:01 centos7 kernel: smpboot: Booting Node   0, Processors  #1 OK
+Mar 16 15:01:01 centos7 kernel: kvm-clock: cpu 1, msr 0:3ff78041, secondary cpu clock
+Mar 16 15:01:01 centos7 kernel: Brought up 2 CPUs
+Mar 16 15:01:01 centos7 kernel: smpboot: Max logical packages: 1
+Mar 16 15:01:01 centos7 kernel: smpboot: Total of 2 processors activated (9984.00 BogoMIPS)
+Mar 16 15:01:01 centos7 kernel: devtmpfs: initialized
+Mar 16 15:01:01 centos7 kernel: x86/mm: Memory block size: 128MB
+Mar 16 15:01:01 centos7 kernel: EVM: security.selinux
+Mar 16 15:01:01 centos7 kernel: EVM: security.ima
+Mar 16 15:01:01 centos7 kernel: EVM: security.capability
+Mar 16 15:01:01 centos7 kernel: atomic64 test passed for x86-64 platform with CX8 and with SSE
+Mar 16 15:01:01 centos7 kernel: pinctrl core: initialized pinctrl subsystem
+Mar 16 15:01:01 centos7 kernel: RTC time: 19:01:01, date: 03/16/25
+Mar 16 15:01:01 centos7 kernel: NET: Registered protocol family 16
+Mar 16 15:01:01 centos7 kernel: cpuidle: using governor haltpoll
+Mar 16 15:01:01 centos7 kernel: ACPI: bus type PCI registered
+Mar 16 15:01:01 centos7 kernel: acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+Mar 16 15:01:01 centos7 kernel: PCI: Using configuration type 1 for base access
+Mar 16 15:01:01 centos7 kernel: ACPI: Added _OSI(Module Device)
+Mar 16 15:01:01 centos7 kernel: ACPI: Added _OSI(Processor Device)
+Mar 16 15:01:01 centos7 kernel: ACPI: Added _OSI(3.0 _SCP Extensions)
+Mar 16 15:01:01 centos7 kernel: ACPI: Added _OSI(Processor Aggregator Device)
+Mar 16 15:01:01 centos7 kernel: ACPI: Added _OSI(Linux-Dell-Video)
+Mar 16 15:01:01 centos7 kernel: ACPI: Executed 1 blocks of module-level executable AML code
+Mar 16 15:01:01 centos7 kernel: ACPI: Interpreter enabled
+Mar 16 15:01:01 centos7 kernel: ACPI: (supports S0 S5)
+Mar 16 15:01:01 centos7 kernel: ACPI: Using IOAPIC for interrupt routing
+Mar 16 15:01:01 centos7 kernel: PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+Mar 16 15:01:01 centos7 kernel: ACPI: Enabled 2 GPEs in block 00 to 07
+Mar 16 15:01:01 centos7 kernel: ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+Mar 16 15:01:01 centos7 kernel: acpi PNP0A03:00: _OSC: OS supports [ASPM ClockPM Segments MSI]
+Mar 16 15:01:01 centos7 kernel: acpi PNP0A03:00: _OSC: not requesting OS control; OS requires [ExtendedConfig ASPM ClockPM MSI]
+Mar 16 15:01:01 centos7 kernel: acpi PNP0A03:00: fail to add MMCONFIG information, can't access extended PCI configuration space under this bridge.
+Mar 16 15:01:01 centos7 kernel: PCI host bridge to bus 0000:00
+Mar 16 15:01:01 centos7 kernel: pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+Mar 16 15:01:01 centos7 kernel: pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]
+Mar 16 15:01:01 centos7 kernel: pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]
+Mar 16 15:01:01 centos7 kernel: pci_bus 0000:00: root bus resource [mem 0x40000000-0xfdffffff window]
+Mar 16 15:01:01 centos7 kernel: pci_bus 0000:00: root bus resource [bus 00-ff]
+Mar 16 15:01:01 centos7 kernel: pci 0000:00:01.1: legacy IDE quirk: reg 0x10: [io  0x01f0-0x01f7]
+Mar 16 15:01:01 centos7 kernel: pci 0000:00:01.1: legacy IDE quirk: reg 0x14: [io  0x03f6]
+Mar 16 15:01:01 centos7 kernel: pci 0000:00:01.1: legacy IDE quirk: reg 0x18: [io  0x0170-0x0177]
+Mar 16 15:01:01 centos7 kernel: pci 0000:00:01.1: legacy IDE quirk: reg 0x1c: [io  0x0376]
+Mar 16 15:01:01 centos7 kernel: pci 0000:00:07.0: quirk: [io  0x4000-0x403f] claimed by PIIX4 ACPI
+Mar 16 15:01:01 centos7 kernel: pci 0000:00:07.0: quirk: [io  0x4100-0x410f] claimed by PIIX4 SMB
+Mar 16 15:01:01 centos7 kernel: ACPI: PCI Interrupt Link [LNKA] (IRQs 5 9 10 *11)
+Mar 16 15:01:01 centos7 kernel: ACPI: PCI Interrupt Link [LNKB] (IRQs 5 9 *10 11)
+Mar 16 15:01:01 centos7 kernel: ACPI: PCI Interrupt Link [LNKC] (IRQs 5 *9 10 11)
+Mar 16 15:01:01 centos7 kernel: ACPI: PCI Interrupt Link [LNKD] (IRQs 5 9 10 *11)
+Mar 16 15:01:01 centos7 kernel: vgaarb: device added: PCI:0000:00:02.0,decodes=io+mem,owns=io+mem,locks=none
+Mar 16 15:01:01 centos7 kernel: vgaarb: loaded
+Mar 16 15:01:01 centos7 kernel: vgaarb: bridge control possible 0000:00:02.0
+Mar 16 15:01:01 centos7 kernel: SCSI subsystem initialized
+Mar 16 15:01:01 centos7 kernel: ACPI: bus type USB registered
+Mar 16 15:01:01 centos7 kernel: usbcore: registered new interface driver usbfs
+Mar 16 15:01:01 centos7 kernel: usbcore: registered new interface driver hub
+Mar 16 15:01:01 centos7 kernel: usbcore: registered new device driver usb
+Mar 16 15:01:01 centos7 kernel: EDAC MC: Ver: 3.0.0
+Mar 16 15:01:01 centos7 kernel: PCI: Using ACPI for IRQ routing
+Mar 16 15:01:01 centos7 kernel: NetLabel: Initializing
+Mar 16 15:01:01 centos7 kernel: NetLabel:  domain hash size = 128
+Mar 16 15:01:01 centos7 kernel: NetLabel:  protocols = UNLABELED CIPSOv4
+Mar 16 15:01:01 centos7 kernel: NetLabel:  unlabeled traffic allowed by default
+Mar 16 15:01:01 centos7 kernel: amd_nb: Cannot enumerate AMD northbridges
+Mar 16 15:01:01 centos7 kernel: Switched to clocksource kvm-clock
+Mar 16 15:01:01 centos7 kernel: pnp: PnP ACPI init
+Mar 16 15:01:01 centos7 kernel: ACPI: bus type PNP registered
+Mar 16 15:01:01 centos7 kernel: pnp: PnP ACPI: found 2 devices
+Mar 16 15:01:01 centos7 kernel: ACPI: bus type PNP unregistered
+Mar 16 15:01:01 centos7 kernel: NET: Registered protocol family 2
+Mar 16 15:01:01 centos7 kernel: TCP established hash table entries: 8192 (order: 4, 65536 bytes)
+Mar 16 15:01:01 centos7 kernel: TCP bind hash table entries: 8192 (order: 5, 131072 bytes)
+Mar 16 15:01:01 centos7 kernel: TCP: Hash tables configured (established 8192 bind 8192)
+Mar 16 15:01:01 centos7 kernel: TCP: reno registered
+Mar 16 15:01:01 centos7 kernel: UDP hash table entries: 512 (order: 2, 16384 bytes)
+Mar 16 15:01:01 centos7 kernel: UDP-Lite hash table entries: 512 (order: 2, 16384 bytes)
+Mar 16 15:01:01 centos7 kernel: NET: Registered protocol family 1
+Mar 16 15:01:01 centos7 kernel: pci 0000:00:00.0: Limiting direct PCI/PCI transfers
+Mar 16 15:01:01 centos7 kernel: pci 0000:00:01.0: Activating ISA DMA hang workarounds
+Mar 16 15:01:01 centos7 kernel: Unpacking initramfs...
+Mar 16 15:01:01 centos7 kernel: Freeing initrd memory: 20092k freed
+Mar 16 15:01:01 centos7 kernel: platform rtc_cmos: registered platform RTC device (no PNP device found)
+Mar 16 15:01:01 centos7 kernel: sha1_ssse3: Using SHA-NI optimized SHA-1 implementation
+Mar 16 15:01:01 centos7 kernel: sha256_ssse3: Using SHA-256-NI optimized SHA-256 implementation
+Mar 16 15:01:01 centos7 kernel: futex hash table entries: 512 (order: 3, 32768 bytes)
+Mar 16 15:01:01 centos7 kernel: Initialise system trusted keyring
+Mar 16 15:01:01 centos7 kernel: audit: initializing netlink socket (disabled)
+Mar 16 15:01:01 centos7 kernel: type=2000 audit(1742151671.226:1): initialized
+Mar 16 15:01:01 centos7 kernel: HugeTLB registered 2 MB page size, pre-allocated 0 pages
+Mar 16 15:01:01 centos7 kernel: zpool: loaded
+Mar 16 15:01:01 centos7 kernel: zbud: loaded
+Mar 16 15:01:01 centos7 kernel: VFS: Disk quotas dquot_6.5.2
+Mar 16 15:01:01 centos7 kernel: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+Mar 16 15:01:01 centos7 kernel: Key type big_key registered
+Mar 16 15:01:01 centos7 kernel: NET: Registered protocol family 38
+Mar 16 15:01:01 centos7 kernel: Key type asymmetric registered
+Mar 16 15:01:01 centos7 kernel: Asymmetric key parser 'x509' registered
+Mar 16 15:01:01 centos7 kernel: Block layer SCSI generic (bsg) driver version 0.4 loaded (major 248)
+Mar 16 15:01:01 centos7 kernel: io scheduler noop registered
+Mar 16 15:01:01 centos7 kernel: io scheduler deadline registered (default)
+Mar 16 15:01:01 centos7 kernel: io scheduler cfq registered
+Mar 16 15:01:01 centos7 kernel: io scheduler mq-deadline registered
+Mar 16 15:01:01 centos7 kernel: io scheduler kyber registered
+Mar 16 15:01:01 centos7 kernel: pci_hotplug: PCI Hot Plug PCI Core version: 0.5
+Mar 16 15:01:01 centos7 kernel: pciehp: PCI Express Hot Plug Controller Driver version: 0.4
+Mar 16 15:01:01 centos7 kernel: shpchp: Standard Hot Plug PCI Controller Driver version: 0.4
+Mar 16 15:01:01 centos7 kernel: ACPI: AC Adapter [AC] (on-line)
+Mar 16 15:01:01 centos7 kernel: input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input0
+Mar 16 15:01:01 centos7 kernel: ACPI: Power Button [PWRF]
+Mar 16 15:01:01 centos7 kernel: input: Sleep Button as /devices/LNXSYSTM:00/LNXSLPBN:00/input/input1
+Mar 16 15:01:01 centos7 kernel: ACPI: Sleep Button [SLPF]
+Mar 16 15:01:01 centos7 kernel: GHES: HEST is not enabled!
+Mar 16 15:01:01 centos7 kernel: Serial: 8250/16550 driver, 4 ports, IRQ sharing enabled
+Mar 16 15:01:01 centos7 kernel: Non-volatile memory driver v1.3
+Mar 16 15:01:01 centos7 kernel: Linux agpgart interface v0.103
+Mar 16 15:01:01 centos7 kernel: crash memory driver: version 1.1
+Mar 16 15:01:01 centos7 kernel: rdac: device handler registered
+Mar 16 15:01:01 centos7 kernel: hp_sw: device handler registered
+Mar 16 15:01:01 centos7 kernel: emc: device handler registered
+Mar 16 15:01:01 centos7 kernel: alua: device handler registered
+Mar 16 15:01:01 centos7 kernel: ACPI: Battery Slot [BAT0] (battery present)
+Mar 16 15:01:01 centos7 kernel: libphy: Fixed MDIO Bus: probed
+Mar 16 15:01:01 centos7 kernel: ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Mar 16 15:01:01 centos7 kernel: ehci-pci: EHCI PCI platform driver
+Mar 16 15:01:01 centos7 kernel: ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+Mar 16 15:01:01 centos7 kernel: ohci-pci: OHCI PCI platform driver
+Mar 16 15:01:01 centos7 kernel: uhci_hcd: USB Universal Host Controller Interface driver
+Mar 16 15:01:01 centos7 kernel: usbcore: registered new interface driver usbserial_generic
+Mar 16 15:01:01 centos7 kernel: usbserial: USB Serial support registered for generic
+Mar 16 15:01:01 centos7 kernel: i8042: PNP: PS/2 Controller [PNP0303:PS2K,PNP0f03:PS2M] at 0x60,0x64 irq 1,12
+Mar 16 15:01:01 centos7 kernel: serio: i8042 KBD port at 0x60,0x64 irq 1
+Mar 16 15:01:01 centos7 kernel: serio: i8042 AUX port at 0x60,0x64 irq 12
+Mar 16 15:01:01 centos7 kernel: mousedev: PS/2 mouse device common for all mice
+Mar 16 15:01:01 centos7 kernel: random: fast init done
+Mar 16 15:01:01 centos7 kernel: input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input2
+Mar 16 15:01:01 centos7 kernel: rtc_cmos rtc_cmos: rtc core: registered rtc_cmos as rtc0
+Mar 16 15:01:01 centos7 kernel: rtc_cmos rtc_cmos: alarms up to one day, 114 bytes nvram
+Mar 16 15:01:01 centos7 kernel: hidraw: raw HID events driver (C) Jiri Kosina
+Mar 16 15:01:01 centos7 kernel: usbcore: registered new interface driver usbhid
+Mar 16 15:01:01 centos7 kernel: usbhid: USB HID core driver
+Mar 16 15:01:01 centos7 kernel: drop_monitor: Initializing network drop monitor service
+Mar 16 15:01:01 centos7 kernel: Netfilter messages via NETLINK v0.30.
+Mar 16 15:01:01 centos7 kernel: TCP: cubic registered
+Mar 16 15:01:01 centos7 kernel: Initializing XFRM netlink socket
+Mar 16 15:01:01 centos7 kernel: NET: Registered protocol family 10
+Mar 16 15:01:01 centos7 kernel: NET: Registered protocol family 17
+Mar 16 15:01:01 centos7 kernel: mpls_gso: MPLS GSO support
+Mar 16 15:01:01 centos7 kernel: mce: Using 0 MCE banks
+Mar 16 15:01:01 centos7 kernel: Loading compiled-in X.509 certificates
+Mar 16 15:01:01 centos7 kernel: Loaded X.509 cert 'CentOS Linux kpatch signing key: ea0413152cde1d98ebdca3fe6f0230904c9ef717'
+Mar 16 15:01:01 centos7 kernel: Loaded X.509 cert 'CentOS Linux Driver update signing key: 7f421ee0ab69461574bb358861dbe77762a4201b'
+Mar 16 15:01:01 centos7 kernel: Loaded X.509 cert 'CentOS Linux kernel signing key: 68ea103f2c90a8dc0bb0446c06d14561f29e1172'
+Mar 16 15:01:01 centos7 kernel: registered taskstats version 1
+Mar 16 15:01:01 centos7 kernel: page_owner is disabled
+Mar 16 15:01:01 centos7 kernel: Key type trusted registered
+Mar 16 15:01:01 centos7 kernel: Key type encrypted registered
+Mar 16 15:01:01 centos7 kernel: IMA: No TPM chip found, activating TPM-bypass! (rc=-19)
+Mar 16 15:01:01 centos7 kernel: BERT: Boot Error Record Table support is disabled. Enable it by using bert_enable as kernel parameter.
+Mar 16 15:01:01 centos7 kernel:  Magic number: 1:162:41
+Mar 16 15:01:01 centos7 kernel: rtc_cmos rtc_cmos: setting system clock to 2025-03-16 19:01:01 UTC (1742151661)
+Mar 16 15:01:01 centos7 kernel: Freeing unused kernel memory: 2176k freed
+Mar 16 15:01:01 centos7 kernel: Write protecting the kernel read-only data: 12288k
+Mar 16 15:01:01 centos7 kernel: Freeing unused kernel memory: 192k freed
+Mar 16 15:01:01 centos7 kernel: Freeing unused kernel memory: 524k freed
+Mar 16 15:01:01 centos7 systemd[1]: systemd 219 running in system mode. (+PAM +AUDIT +SELINUX +IMA -APPARMOR +SMACK +SYSVINIT +UTMP +LIBCRYPTSETUP +GCRYPT +GNUTLS +ACL +XZ +LZ4 -SECCOMP +BLKID +ELFUTILS +KMOD +IDN)
+Mar 16 15:01:01 centos7 systemd[1]: Detected virtualization kvm.
+Mar 16 15:01:01 centos7 systemd[1]: Detected architecture x86-64.
+Mar 16 15:01:01 centos7 systemd[1]: Running in initial RAM disk.
+Mar 16 15:01:01 centos7 systemd[1]: Set hostname to <centos7>.
+Mar 16 15:01:01 centos7 systemd[1]: Reached target Local File Systems.
+Mar 16 15:01:01 centos7 systemd[1]: Reached target Swap.
+Mar 16 15:01:01 centos7 systemd[1]: Created slice Root Slice.
+Mar 16 15:01:01 centos7 systemd[1]: Listening on udev Control Socket.
+Mar 16 15:01:01 centos7 systemd[1]: Created slice System Slice.
+Mar 16 15:01:01 centos7 systemd[1]: Reached target Slices.
+Mar 16 15:01:01 centos7 systemd[1]: Reached target Timers.
+Mar 16 15:01:01 centos7 systemd[1]: Listening on udev Kernel Socket.
+Mar 16 15:01:01 centos7 systemd[1]: Listening on Journal Socket.
+Mar 16 15:01:01 centos7 systemd[1]: Reached target Sockets.
+Mar 16 15:01:01 centos7 systemd[1]: Starting Apply Kernel Variables...
+Mar 16 15:01:01 centos7 systemd[1]: Starting Create list of required static device nodes for the current kernel...
+Mar 16 15:01:01 centos7 systemd[1]: Starting dracut cmdline hook...
+Mar 16 15:01:01 centos7 systemd[1]: Starting Journal Service...
+Mar 16 15:01:01 centos7 systemd[1]: Starting Setup Virtual Console...
+Mar 16 15:01:01 centos7 systemd[1]: Started Apply Kernel Variables.
+Mar 16 15:01:01 centos7 systemd[1]: Started Create list of required static device nodes for the current kernel.
+Mar 16 15:01:01 centos7 systemd[1]: Starting Create Static Device Nodes in /dev...
+Mar 16 15:01:01 centos7 systemd[1]: Started Create Static Device Nodes in /dev.
+Mar 16 15:01:01 centos7 journal: Journal started
+Mar 16 15:01:01 centos7 systemd[1]: Started Journal Service.
+Mar 16 15:01:01 centos7 systemd: Started dracut cmdline hook.
+Mar 16 15:01:01 centos7 systemd: Starting dracut pre-udev hook...
+Mar 16 15:01:01 centos7 systemd: Started Setup Virtual Console.
+Mar 16 15:01:01 centos7 kernel: device-mapper: uevent: version 1.0.3
+Mar 16 15:01:01 centos7 kernel: device-mapper: ioctl: 4.37.1-ioctl (2018-04-03) initialised: dm-devel@redhat.com
+Mar 16 15:01:01 centos7 kernel: psmouse serio1: alps: Unknown ALPS touchpad: E7=10 00 64, EC=10 00 64
+Mar 16 15:01:01 centos7 kernel: input: ImExPS/2 Generic Explorer Mouse as /devices/platform/i8042/serio1/input/input3
+Mar 16 15:01:01 centos7 systemd: Started dracut pre-udev hook.
+Mar 16 15:01:01 centos7 systemd: Starting udev Kernel Device Manager...
+Mar 16 15:01:01 centos7 systemd-udevd: starting version 219
+Mar 16 15:01:01 centos7 systemd-udevd: Network interface NamePolicy= disabled on kernel command line, ignoring.
+Mar 16 15:01:01 centos7 systemd: Started udev Kernel Device Manager.
+Mar 16 15:01:01 centos7 systemd: Starting udev Coldplug all Devices...
+Mar 16 15:01:01 centos7 systemd: Mounting Configuration File System...
+Mar 16 15:01:01 centos7 systemd: Mounted Configuration File System.
+Mar 16 15:01:01 centos7 systemd: Started udev Coldplug all Devices.
+Mar 16 15:01:01 centos7 systemd: Reached target System Initialization.
+Mar 16 15:01:01 centos7 systemd: Starting dracut initqueue hook...
+Mar 16 15:01:01 centos7 systemd: Starting Show Plymouth Boot Screen...
+Mar 16 15:01:01 centos7 kernel: e1000: Intel(R) PRO/1000 Network Driver - version 7.3.21-k8-NAPI
+Mar 16 15:01:01 centos7 kernel: e1000: Copyright (c) 1999-2006 Intel Corporation.
+Mar 16 15:01:01 centos7 systemd: Started Show Plymouth Boot Screen.
+Mar 16 15:01:01 centos7 systemd: Reached target Paths.
+Mar 16 15:01:01 centos7 systemd: Started Forward Password Requests to Plymouth Directory Watch.
+Mar 16 15:01:01 centos7 systemd: Reached target Basic System.
+Mar 16 15:01:02 centos7 kernel: e1000 0000:00:03.0 eth0: (PCI:33MHz:32-bit) 08:00:27:e8:7d:cf
+Mar 16 15:01:02 centos7 kernel: e1000 0000:00:03.0 eth0: Intel(R) PRO/1000 Network Connection
+Mar 16 15:01:02 centos7 kernel: scsi host0: ata_piix
+Mar 16 15:01:02 centos7 kernel: scsi host1: ata_piix
+Mar 16 15:01:02 centos7 kernel: ata1: PATA max UDMA/33 cmd 0x1f0 ctl 0x3f6 bmdma 0xd000 irq 14
+Mar 16 15:01:02 centos7 kernel: ata2: PATA max UDMA/33 cmd 0x170 ctl 0x376 bmdma 0xd008 irq 15
+Mar 16 15:01:02 centos7 kernel: ahci 0000:00:0d.0: SSS flag set, parallel bus scan disabled
+Mar 16 15:01:02 centos7 kernel: ahci 0000:00:0d.0: AHCI 0001.0100 32 slots 1 ports 3 Gbps 0x1 impl SATA mode
+Mar 16 15:01:02 centos7 kernel: ahci 0000:00:0d.0: flags: 64bit ncq stag only ccc 
+Mar 16 15:01:02 centos7 kernel: scsi host2: ahci
+Mar 16 15:01:02 centos7 kernel: ata3: SATA max UDMA/133 abar m8192@0xf0840000 port 0xf0840100 irq 21
+Mar 16 15:01:02 centos7 kernel: tsc: Refined TSC clocksource calibration: 2496.095 MHz
+Mar 16 15:01:02 centos7 kernel: ata3: SATA link up 3.0 Gbps (SStatus 123 SControl 300)
+Mar 16 15:01:02 centos7 kernel: ata3.00: ATA-6: VBOX HARDDISK, 1.0, max UDMA/133
+Mar 16 15:01:02 centos7 kernel: ata3.00: 81920000 sectors, multi 128: LBA48 NCQ (depth 31/32)
+Mar 16 15:01:02 centos7 kernel: ata3.00: configured for UDMA/133
+Mar 16 15:01:02 centos7 kernel: scsi 2:0:0:0: Direct-Access     ATA      VBOX HARDDISK    1.0  PQ: 0 ANSI: 5
+Mar 16 15:01:02 centos7 kernel: sd 2:0:0:0: [sda] 81920000 512-byte logical blocks: (41.9 GB/39.0 GiB)
+Mar 16 15:01:02 centos7 kernel: sd 2:0:0:0: [sda] Write Protect is off
+Mar 16 15:01:02 centos7 kernel: sd 2:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Mar 16 15:01:02 centos7 kernel: sda: sda1 sda2
+Mar 16 15:01:02 centos7 kernel: sd 2:0:0:0: [sda] Attached SCSI disk
+Mar 16 15:01:02 centos7 kernel: e1000 0000:00:08.0 eth1: (PCI:33MHz:32-bit) 08:00:27:dd:80:ee
+Mar 16 15:01:02 centos7 kernel: e1000 0000:00:08.0 eth1: Intel(R) PRO/1000 Network Connection
+Mar 16 15:01:03 centos7 systemd: Found device /dev/mapper/vg00-lv_root.
+Mar 16 15:01:03 centos7 systemd: Starting File System Check on /dev/mapper/vg00-lv_root...
+Mar 16 15:01:03 centos7 systemd-fsck: /dev/mapper/vg00-lv_root: clean, 83115/2293760 files, 779075/9175040 blocks
+Mar 16 15:01:03 centos7 systemd: Started File System Check on /dev/mapper/vg00-lv_root.
+Mar 16 15:01:03 centos7 systemd: Started dracut initqueue hook.
+Mar 16 15:01:03 centos7 systemd: Mounting /sysroot...
+Mar 16 15:01:03 centos7 systemd: Reached target Remote File Systems (Pre).
+Mar 16 15:01:03 centos7 systemd: Reached target Remote File Systems.
+Mar 16 15:01:03 centos7 kernel: EXT4-fs (dm-0): mounted filesystem with ordered data mode. Opts: (null)
+Mar 16 15:01:03 centos7 systemd: Mounted /sysroot.
+Mar 16 15:01:03 centos7 systemd: Reached target Initrd Root File System.
+Mar 16 15:01:03 centos7 systemd: Starting Reload Configuration from the Real Root...
+Mar 16 15:01:03 centos7 systemd: Reloading.
+Mar 16 15:01:03 centos7 systemd: Started Reload Configuration from the Real Root.
+Mar 16 15:01:03 centos7 systemd: Reached target Initrd File Systems.
+Mar 16 15:01:03 centos7 systemd: Reached target Initrd Default Target.
+Mar 16 15:01:03 centos7 systemd: Starting dracut pre-pivot and cleanup hook...
+Mar 16 15:01:03 centos7 systemd: Started dracut pre-pivot and cleanup hook.
+Mar 16 15:01:03 centos7 systemd: Starting Cleaning Up and Shutting Down Daemons...
+Mar 16 15:01:03 centos7 systemd: Stopped target Timers.
+Mar 16 15:01:03 centos7 systemd: Starting Plymouth switch root service...
+Mar 16 15:01:03 centos7 systemd: Stopped dracut pre-pivot and cleanup hook.
+Mar 16 15:01:03 centos7 systemd: Stopped target Remote File Systems.
+Mar 16 15:01:03 centos7 systemd: Stopped target Remote File Systems (Pre).
+Mar 16 15:01:03 centos7 systemd: Stopped dracut initqueue hook.
+Mar 16 15:01:03 centos7 systemd: Stopped target Initrd Default Target.
+Mar 16 15:01:03 centos7 systemd: Stopped target Basic System.
+Mar 16 15:01:03 centos7 systemd: Stopped target Slices.
+Mar 16 15:01:03 centos7 systemd: Stopped target Sockets.
+Mar 16 15:01:03 centos7 systemd: Stopped target Paths.
+Mar 16 15:01:03 centos7 systemd: Stopped target System Initialization.
+Mar 16 15:01:03 centos7 systemd: Stopped target Local File Systems.
+Mar 16 15:01:03 centos7 systemd: Stopping udev Kernel Device Manager...
+Mar 16 15:01:03 centos7 systemd: Stopped target Swap.
+Mar 16 15:01:03 centos7 systemd: Stopped udev Coldplug all Devices.
+Mar 16 15:01:03 centos7 systemd: Stopped Apply Kernel Variables.
+Mar 16 15:01:03 centos7 systemd: Stopped udev Kernel Device Manager.
+Mar 16 15:01:03 centos7 systemd: Stopped dracut pre-udev hook.
+Mar 16 15:01:03 centos7 systemd: Stopped dracut cmdline hook.
+Mar 16 15:01:03 centos7 systemd: Stopped Create Static Device Nodes in /dev.
+Mar 16 15:01:03 centos7 systemd: Stopped Create list of required static device nodes for the current kernel.
+Mar 16 15:01:03 centos7 systemd: Closed udev Kernel Socket.
+Mar 16 15:01:03 centos7 systemd: Closed udev Control Socket.
+Mar 16 15:01:03 centos7 systemd: Starting Cleanup udevd DB...
+Mar 16 15:01:03 centos7 systemd: Started Cleaning Up and Shutting Down Daemons.
+Mar 16 15:01:03 centos7 systemd: Started Cleanup udevd DB.
+Mar 16 15:01:03 centos7 systemd: Reached target Switch Root.
+Mar 16 15:01:03 centos7 systemd: Started Plymouth switch root service.
+Mar 16 15:01:03 centos7 systemd: Starting Switch Root...
+Mar 16 15:01:03 centos7 systemd: Switching root.
+Mar 16 15:01:03 centos7 journal: Journal stopped
+Mar 16 15:01:03 centos7 journal: Runtime journal is using 6.1M (max allowed 49.5M, trying to leave 74.2M free of 489.0M available → current limit 49.5M).
+Mar 16 15:01:03 centos7 systemd-journald[98]: Received SIGTERM from PID 1 (systemd).
+Mar 16 15:01:03 centos7 kernel: SELinux:  Disabled at runtime.
+Mar 16 15:01:03 centos7 kernel: type=1404 audit(1742151663.876:2): selinux=0 auid=4294967295 ses=4294967295
+Mar 16 15:01:03 centos7 kernel: ip_tables: (C) 2000-2006 Netfilter Core Team
+Mar 16 15:01:03 centos7 systemd[1]: Inserted module 'ip_tables'
+Mar 16 15:01:03 centos7 journal: Journal started
+Mar 16 15:01:03 centos7 systemd: systemd 219 running in system mode. (+PAM +AUDIT +SELINUX +IMA -APPARMOR +SMACK +SYSVINIT +UTMP +LIBCRYPTSETUP +GCRYPT +GNUTLS +ACL +XZ +LZ4 -SECCOMP +BLKID +ELFUTILS +KMOD +IDN)
+Mar 16 15:01:03 centos7 systemd: Detected virtualization kvm.
+Mar 16 15:01:03 centos7 systemd: Detected architecture x86-64.
+Mar 16 15:01:03 centos7 systemd: Set hostname to <centos7>.
+Mar 16 15:01:03 centos7 systemd: Mounted Huge Pages File System.
+Mar 16 15:01:03 centos7 systemd: Mounted Debug File System.
+Mar 16 15:01:03 centos7 systemd: Mounted POSIX Message Queue File System.
+Mar 16 15:01:03 centos7 systemd: Started Read and set NIS domainname from /etc/sysconfig/network.
+Mar 16 15:01:03 centos7 systemd: Started Apply Kernel Variables.
+Mar 16 15:01:03 centos7 kernel: EXT4-fs (dm-0): re-mounted. Opts: (null)
+Mar 16 15:01:03 centos7 systemd: Started Remount Root and Kernel File Systems.
+Mar 16 15:01:03 centos7 systemd: Starting Configure read-only root support...
+Mar 16 15:01:03 centos7 systemd: Starting Flush Journal to Persistent Storage...
+Mar 16 15:01:03 centos7 systemd: Starting udev Coldplug all Devices...
+Mar 16 15:01:03 centos7 systemd: Started Create Static Device Nodes in /dev.
+Mar 16 15:01:04 centos7 systemd: Starting udev Kernel Device Manager...
+Mar 16 15:01:04 centos7 systemd: Reached target Local File Systems (Pre).
+Mar 16 15:01:04 centos7 systemd-udevd: starting version 219
+Mar 16 15:01:04 centos7 systemd: Started Flush Journal to Persistent Storage.
+Mar 16 15:01:04 centos7 systemd-udevd: Network interface NamePolicy= disabled on kernel command line, ignoring.
+Mar 16 15:01:04 centos7 systemd: Started udev Coldplug all Devices.
+Mar 16 15:01:04 centos7 systemd: Started Configure read-only root support.
+Mar 16 15:01:04 centos7 systemd: Starting Load/Save Random Seed...
+Mar 16 15:01:04 centos7 systemd: Started Load/Save Random Seed.
+Mar 16 15:01:04 centos7 systemd: Started udev Kernel Device Manager.
+Mar 16 15:01:04 centos7 kernel: piix4_smbus 0000:00:07.0: SMBus Host Controller at 0x4100, revision 0
+Mar 16 15:01:04 centos7 kernel: ACPI: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+Mar 16 15:01:04 centos7 kernel: input: Video Bus as /devices/LNXSYSTM:00/device:00/PNP0A03:00/LNXVIDEO:00/input/input4
+Mar 16 15:01:04 centos7 kernel: vboxguest: loading out-of-tree module taints kernel.
+Mar 16 15:01:04 centos7 kernel: vboxguest: module verification failed: signature and/or required key missing - tainting kernel
+Mar 16 15:01:04 centos7 kernel: cryptd: max_cpu_qlen set to 1000
+Mar 16 15:01:04 centos7 kernel: vgdrvHeartbeatInit: Setting up heartbeat to trigger every 2000 milliseconds
+Mar 16 15:01:04 centos7 kernel: Host supports full mouse state reporting, switching to extended mouse integration protocol
+Mar 16 15:01:04 centos7 kernel: input: VirtualBox mouse integration as /devices/pci0000:00/0000:00:04.0/input/input5
+Mar 16 15:01:04 centos7 kernel: vboxguest: Successfully loaded version 7.1.6 r167084
+Mar 16 15:01:04 centos7 kernel: vboxguest: misc device minor 58, IRQ 20, I/O port d020, MMIO at 00000000f0400000 (size 0x400000)
+Mar 16 15:01:04 centos7 kernel: sd 2:0:0:0: Attached scsi generic sg0 type 0
+Mar 16 15:01:04 centos7 kernel: AVX2 version of gcm_enc/dec engaged.
+Mar 16 15:01:04 centos7 kernel: AES CTR mode by8 optimization enabled
+Mar 16 15:01:04 centos7 systemd: Created slice system-lvm2\x2dpvscan.slice.
+Mar 16 15:01:04 centos7 systemd: Starting LVM2 PV scan on device 8:2...
+Mar 16 15:01:04 centos7 systemd: Found device /dev/mapper/vg00-lv_swap.
+Mar 16 15:01:04 centos7 systemd: Found device VBOX_HARDDISK 1.
+Mar 16 15:01:04 centos7 systemd: Starting File System Check on /dev/disk/by-uuid/f3cfdbb9-4453-4188-afa9-97ecd777c12e...
+Mar 16 15:01:04 centos7 systemd: Activating swap /dev/mapper/vg00-lv_swap...
+Mar 16 15:01:04 centos7 systemd: Started LVM2 metadata daemon.
+Mar 16 15:01:04 centos7 kernel: ppdev: user-space parallel port driver
+Mar 16 15:01:04 centos7 kernel: Adding 3178492k swap on /dev/mapper/vg00-lv_swap.  Priority:-2 extents:1 across:3178492k FS
+Mar 16 15:01:04 centos7 systemd: Activated swap /dev/mapper/vg00-lv_swap.
+Mar 16 15:01:04 centos7 systemd: Reached target Swap.
+Mar 16 15:01:04 centos7 lvm: pvscan[538] activating all complete VGs for init
+Mar 16 15:01:04 centos7 lvm: pvscan[538] VG vg00 run autoactivation.
+Mar 16 15:01:04 centos7 lvm: 2 logical volume(s) in volume group "vg00" now active
+Mar 16 15:01:04 centos7 kernel: alg: No test for __gcm-aes-aesni (__driver-gcm-aes-aesni)
+Mar 16 15:01:04 centos7 kernel: alg: No test for __generic-gcm-aes-aesni (__driver-generic-gcm-aes-aesni)
+Mar 16 15:01:04 centos7 systemd: Started LVM2 PV scan on device 8:2.
+Mar 16 15:01:04 centos7 systemd-fsck: /dev/sda1: clean, 348/65536 files, 51814/262144 blocks
+Mar 16 15:01:04 centos7 systemd: Started File System Check on /dev/disk/by-uuid/f3cfdbb9-4453-4188-afa9-97ecd777c12e.
+Mar 16 15:01:04 centos7 systemd: Mounting /boot...
+Mar 16 15:01:04 centos7 kernel: EXT4-fs (sda1): mounted filesystem with ordered data mode. Opts: (null)
+Mar 16 15:01:04 centos7 systemd: Mounted /boot.
+Mar 16 15:01:04 centos7 systemd: Reached target Local File Systems.
+Mar 16 15:01:04 centos7 systemd: Starting Preprocess NFS configuration...
+Mar 16 15:01:04 centos7 systemd: Starting Tell Plymouth To Write Out Runtime Data...
+Mar 16 15:01:04 centos7 systemd: Starting Import network configuration from initramfs...
+Mar 16 15:01:04 centos7 kernel: vboxvideo: loading version 7.1.6 r167084
+Mar 16 15:01:04 centos7 systemd: Started Preprocess NFS configuration.
+Mar 16 15:01:04 centos7 systemd: Started Tell Plymouth To Write Out Runtime Data.
+Mar 16 15:01:04 centos7 systemd: Started Import network configuration from initramfs.
+Mar 16 15:01:04 centos7 systemd: Starting Create Volatile Files and Directories...
+Mar 16 15:01:04 centos7 systemd: Started Create Volatile Files and Directories.
+Mar 16 15:01:04 centos7 systemd: Starting Update UTMP about System Boot/Shutdown...
+Mar 16 15:01:04 centos7 systemd: Mounting RPC Pipe File System...
+Mar 16 15:01:04 centos7 systemd: Started Update UTMP about System Boot/Shutdown.
+Mar 16 15:01:04 centos7 systemd: Reached target System Initialization.
+Mar 16 15:01:04 centos7 systemd: Starting Socket activation for snappy daemon.
+Mar 16 15:01:04 centos7 systemd: Listening on RPCbind Server Activation Socket.
+Mar 16 15:01:04 centos7 systemd: Started Daily Cleanup of Temporary Directories.
+Mar 16 15:01:04 centos7 systemd: Reached target Timers.
+Mar 16 15:01:04 centos7 systemd: Listening on D-Bus System Message Bus Socket.
+Mar 16 15:01:04 centos7 systemd: Started Flexible branding.
+Mar 16 15:01:04 centos7 systemd: Reached target Paths.
+Mar 16 15:01:04 centos7 systemd: Listening on Socket activation for snappy daemon.
+Mar 16 15:01:04 centos7 systemd: Reached target Sockets.
+Mar 16 15:01:04 centos7 systemd: Reached target Basic System.
+Mar 16 15:01:04 centos7 systemd: Starting Authorization Manager...
+Mar 16 15:01:04 centos7 systemd: Started irqbalance daemon.
+Mar 16 15:01:04 centos7 systemd: Starting Resets System Activity Logs...
+Mar 16 15:01:04 centos7 systemd: Starting Login Service...
+Mar 16 15:01:04 centos7 systemd: Starting vboxadd.service...
+Mar 16 15:01:04 centos7 systemd: Starting GSSAPI Proxy Daemon...
+Mar 16 15:01:04 centos7 systemd: Starting Dump dmesg to /var/log/dmesg...
+Mar 16 15:01:04 centos7 systemd: Started D-Bus System Message Bus.
+Mar 16 15:01:04 centos7 kernel: random: crng init done
+Mar 16 15:01:04 centos7 polkitd[611]: Started polkitd version 0.112
+Mar 16 15:01:04 centos7 kernel: RPC: Registered named UNIX socket transport module.
+Mar 16 15:01:04 centos7 kernel: RPC: Registered udp transport module.
+Mar 16 15:01:04 centos7 kernel: RPC: Registered tcp transport module.
+Mar 16 15:01:04 centos7 kernel: RPC: Registered tcp NFSv4.1 backchannel transport module.
+Mar 16 15:01:04 centos7 systemd: Starting Network Manager...
+Mar 16 15:01:04 centos7 systemd: Starting NTP client/server...
+Mar 16 15:01:04 centos7 systemd: Starting Builds and install new kernel modules through DKMS...
+Mar 16 15:01:04 centos7 systemd: Mounted RPC Pipe File System.
+Mar 16 15:01:04 centos7 systemd: Started Resets System Activity Logs.
+Mar 16 15:01:04 centos7 systemd: Started GSSAPI Proxy Daemon.
+Mar 16 15:01:04 centos7 systemd: Started Dump dmesg to /var/log/dmesg.
+Mar 16 15:01:04 centos7 systemd: Reached target rpc_pipefs.target.
+Mar 16 15:01:04 centos7 systemd: Reached target NFS client services.
+Mar 16 15:01:04 centos7 systemd: Reached target Remote File Systems (Pre).
+Mar 16 15:01:04 centos7 systemd: Started Login Service.
+Mar 16 15:01:04 centos7 systemd-logind: Watching system buttons on /dev/input/event0 (Power Button)
+Mar 16 15:01:04 centos7 systemd-logind: Watching system buttons on /dev/input/event1 (Sleep Button)
+Mar 16 15:01:04 centos7 systemd-logind: Watching system buttons on /dev/input/event4 (Video Bus)
+Mar 16 15:01:04 centos7 systemd-logind: New seat seat0.
+Mar 16 15:01:04 centos7 chronyd[648]: chronyd version 3.4 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +SECHASH +IPV6 +DEBUG)
+Mar 16 15:01:04 centos7 systemd: Started Authorization Manager.
+Mar 16 15:01:04 centos7 chronyd[648]: Frequency 502.830 +/- 0.137 ppm read from /var/lib/chrony/drift
+Mar 16 15:01:04 centos7 systemd: Started NTP client/server.
+Mar 16 15:01:04 centos7 NetworkManager[640]: <info>  [1742151664.4156] NetworkManager (version 1.18.8-2.el7_9) is starting... (for the first time)
+Mar 16 15:01:04 centos7 NetworkManager[640]: <info>  [1742151664.4157] Read config: /etc/NetworkManager/NetworkManager.conf (lib: 10-slaves-order.conf)
+Mar 16 15:01:04 centos7 systemd: Started Network Manager.
+Mar 16 15:01:04 centos7 systemd: Starting Network Manager Wait Online...
+Mar 16 15:01:04 centos7 NetworkManager[640]: <info>  [1742151664.4209] bus-manager: acquired D-Bus service "org.freedesktop.NetworkManager"
+Mar 16 15:01:04 centos7 NetworkManager[640]: <info>  [1742151664.4227] manager[0x564d01a73030]: monitoring kernel firmware directory '/lib/firmware'.
+Mar 16 15:01:04 centos7 dbus[618]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service'
+Mar 16 15:01:04 centos7 systemd: Starting Hostname Service...
+Mar 16 15:01:04 centos7 dbus[618]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Mar 16 15:01:04 centos7 NetworkManager[640]: <info>  [1742151664.4491] hostname: hostname: using hostnamed
+Mar 16 15:01:04 centos7 NetworkManager[640]: <info>  [1742151664.4492] hostname: hostname changed from (none) to "centos7"
+Mar 16 15:01:04 centos7 NetworkManager[640]: <info>  [1742151664.4494] dns-mgr[0x564d01a57220]: init: dns=default,systemd-resolved rc-manager=file
+Mar 16 15:01:04 centos7 dbus[618]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Mar 16 15:01:04 centos7 systemd: Started Hostname Service.
+Mar 16 15:01:04 centos7 systemd: Starting Network Manager Script Dispatcher Service...
+Mar 16 15:01:04 centos7 dbus[618]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar 16 15:01:04 centos7 systemd: Started Network Manager Script Dispatcher Service.
+Mar 16 15:01:04 centos7 NetworkManager[640]: <info>  [1742151664.4722] settings: Loaded settings plugin: SettingsPluginIfcfg ("/usr/lib64/NetworkManager/1.18.8-2.el7_9/libnm-settings-plugin-ifcfg-rh.so")
+Mar 16 15:01:04 centos7 NetworkManager[640]: <info>  [1742151664.4737] settings: Loaded settings plugin: NMSIbftPlugin ("/usr/lib64/NetworkManager/1.18.8-2.el7_9/libnm-settings-plugin-ibft.so")
+Mar 16 15:01:04 centos7 NetworkManager[640]: <info>  [1742151664.4738] settings: Loaded settings plugin: NMSKeyfilePlugin (internal)
+Mar 16 15:01:04 centos7 NetworkManager[640]: <info>  [1742151664.4761] ifcfg-rh: new connection /etc/sysconfig/network-scripts/ifcfg-eth1 (9c92fad9-6ecb-3e6c-eb4d-8a47c6f50c04,"System eth1")
+Mar 16 15:01:04 centos7 NetworkManager[640]: <info>  [1742151664.4767] ifcfg-rh: new connection /etc/sysconfig/network-scripts/ifcfg-eth0 (5fb06bd0-0bb0-7ffb-45f1-d6edd65f3e03,"System eth0")
+Mar 16 15:01:04 centos7 NetworkManager[640]: <info>  [1742151664.4802] manager: rfkill: Wi-Fi enabled by radio killswitch; enabled by state file
+Mar 16 15:01:04 centos7 NetworkManager[640]: <info>  [1742151664.4803] manager: rfkill: WWAN enabled by radio killswitch; enabled by state file
+Mar 16 15:01:04 centos7 NetworkManager[640]: <info>  [1742151664.4804] manager: Networking is enabled by state file
+Mar 16 15:01:04 centos7 nm-dispatcher: req:1 'hostname': new request (3 scripts)
+Mar 16 15:01:04 centos7 nm-dispatcher: req:1 'hostname': start running ordered scripts...
+Mar 16 15:01:04 centos7 NetworkManager[640]: <info>  [1742151664.4853] dhcp-init: Using DHCP client 'dhclient'
+Mar 16 15:01:04 centos7 NetworkManager[640]: <info>  [1742151664.4879] Loaded device plugin: NMWifiFactory (/usr/lib64/NetworkManager/1.18.8-2.el7_9/libnm-device-plugin-wifi.so)
+Mar 16 15:01:04 centos7 NetworkManager[640]: <info>  [1742151664.4906] Loaded device plugin: NMTeamFactory (/usr/lib64/NetworkManager/1.18.8-2.el7_9/libnm-device-plugin-team.so)
+Mar 16 15:01:04 centos7 NetworkManager[640]: <info>  [1742151664.4915] device (lo): carrier: link connected
+Mar 16 15:01:04 centos7 NetworkManager[640]: <info>  [1742151664.4917] manager: (lo): new Generic device (/org/freedesktop/NetworkManager/Devices/1)
+Mar 16 15:01:04 centos7 NetworkManager[640]: <info>  [1742151664.4940] manager: (eth0): new Ethernet device (/org/freedesktop/NetworkManager/Devices/2)
+Mar 16 15:01:04 centos7 NetworkManager[640]: <info>  [1742151664.4972] device (eth0): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+Mar 16 15:01:04 centos7 kernel: IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+Mar 16 15:01:04 centos7 kernel: e1000: eth0 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Mar 16 15:01:04 centos7 kernel: IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+Mar 16 15:01:04 centos7 NetworkManager[640]: <info>  [1742151664.5026] device (eth0): carrier: link connected
+Mar 16 15:01:04 centos7 kernel: IPv6: ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+Mar 16 15:01:04 centos7 nm-dispatcher: req:2 'connectivity-change': new request (3 scripts)
+Mar 16 15:01:04 centos7 NetworkManager[640]: <info>  [1742151664.5075] manager: (eth1): new Ethernet device (/org/freedesktop/NetworkManager/Devices/3)
+Mar 16 15:01:04 centos7 NetworkManager[640]: <info>  [1742151664.5094] device (eth1): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+Mar 16 15:01:04 centos7 kernel: IPv6: ADDRCONF(NETDEV_UP): eth1: link is not ready
+Mar 16 15:01:04 centos7 kernel: IPv6: ADDRCONF(NETDEV_UP): eth1: link is not ready
+Mar 16 15:01:04 centos7 NetworkManager[640]: <info>  [1742151664.5275] device (eth0): state change: unavailable -> disconnected (reason 'none', sys-iface-state: 'managed')
+Mar 16 15:01:04 centos7 NetworkManager[640]: <info>  [1742151664.5371] policy: auto-activating connection 'System eth0' (5fb06bd0-0bb0-7ffb-45f1-d6edd65f3e03)
+Mar 16 15:01:04 centos7 NetworkManager[640]: <info>  [1742151664.5402] device (eth0): Activation: starting connection 'System eth0' (5fb06bd0-0bb0-7ffb-45f1-d6edd65f3e03)
+Mar 16 15:01:04 centos7 NetworkManager[640]: <info>  [1742151664.5409] device (eth0): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Mar 16 15:01:04 centos7 NetworkManager[640]: <info>  [1742151664.5426] manager: NetworkManager state is now CONNECTING
+Mar 16 15:01:04 centos7 NetworkManager[640]: <info>  [1742151664.5438] device (eth0): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Mar 16 15:01:04 centos7 NetworkManager[640]: <info>  [1742151664.5459] device (eth0): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Mar 16 15:01:04 centos7 NetworkManager[640]: <info>  [1742151664.5480] dhcp4 (eth0): activation: beginning transaction (timeout in 45 seconds)
+Mar 16 15:01:04 centos7 NetworkManager[640]: <info>  [1742151664.5516] dhcp4 (eth0): dhclient started with pid 695
+Mar 16 15:01:04 centos7 kernel: snd_intel8x0 0000:00:05.0: intel8x0_measure_ac97_clock: measured 50227 usecs (2400 samples)
+Mar 16 15:01:04 centos7 kernel: snd_intel8x0 0000:00:05.0: clocking to 48000
+Mar 16 15:01:04 centos7 systemd: Reached target Sound Card.
+Mar 16 15:01:04 centos7 kernel: [drm] VRAM 00800000
+Mar 16 15:01:04 centos7 kernel: [TTM] Zone  kernel: Available graphics memory: 507192 kiB
+Mar 16 15:01:04 centos7 kernel: [TTM] Initializing pool allocator
+Mar 16 15:01:04 centos7 kernel: [TTM] Initializing DMA pool allocator
+Mar 16 15:01:04 centos7 nm-dispatcher: req:2 'connectivity-change': start running ordered scripts...
+Mar 16 15:01:04 centos7 kernel: fbcon: vboxdrmfb (fb0) is primary device
+Mar 16 15:01:04 centos7 kernel: Console: switching to colour frame buffer device 100x37
+Mar 16 15:01:04 centos7 kernel: vboxvideo 0000:00:02.0: fb0: vboxdrmfb frame buffer device
+Mar 16 15:01:04 centos7 kernel: [drm] Initialized vboxvideo 1.0.0 20130823 for 0000:00:02.0 on minor 0
+Mar 16 15:01:04 centos7 dhclient[695]: DHCPREQUEST on eth0 to 255.255.255.255 port 67 (xid=0x6b96e0a0)
+Mar 16 15:01:04 centos7 dhclient[695]: DHCPACK from 10.0.2.2 (xid=0x6b96e0a0)
+Mar 16 15:01:04 centos7 NetworkManager[640]: <info>  [1742151664.6560] dhcp4 (eth0):   address 10.0.2.15
+Mar 16 15:01:04 centos7 NetworkManager[640]: <info>  [1742151664.6560] dhcp4 (eth0):   plen 24 (255.255.255.0)
+Mar 16 15:01:04 centos7 NetworkManager[640]: <info>  [1742151664.6560] dhcp4 (eth0):   gateway 10.0.2.2
+Mar 16 15:01:04 centos7 NetworkManager[640]: <info>  [1742151664.6560] dhcp4 (eth0):   lease time 86400
+Mar 16 15:01:04 centos7 NetworkManager[640]: <info>  [1742151664.6560] dhcp4 (eth0):   hostname 'vbox'
+Mar 16 15:01:04 centos7 NetworkManager[640]: <info>  [1742151664.6560] dhcp4 (eth0):   nameserver '10.0.2.3'
+Mar 16 15:01:04 centos7 NetworkManager[640]: <info>  [1742151664.6560] dhcp4 (eth0):   domain name 'home'
+Mar 16 15:01:04 centos7 NetworkManager[640]: <info>  [1742151664.6560] dhcp4 (eth0): state changed unknown -> bound
+Mar 16 15:01:04 centos7 NetworkManager[640]: <info>  [1742151664.6567] device (eth0): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Mar 16 15:01:04 centos7 NetworkManager[640]: <info>  [1742151664.6572] device (eth0): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Mar 16 15:01:04 centos7 NetworkManager[640]: <info>  [1742151664.6574] device (eth0): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Mar 16 15:01:04 centos7 NetworkManager[640]: <info>  [1742151664.6577] manager: NetworkManager state is now CONNECTED_LOCAL
+Mar 16 15:01:04 centos7 NetworkManager[640]: <info>  [1742151664.6614] manager: NetworkManager state is now CONNECTED_SITE
+Mar 16 15:01:04 centos7 NetworkManager[640]: <info>  [1742151664.6615] policy: set 'System eth0' (eth0) as default for IPv4 routing and DNS
+Mar 16 15:01:04 centos7 NetworkManager[640]: <info>  [1742151664.6647] device (eth0): Activation: successful, device activated.
+Mar 16 15:01:04 centos7 nm-dispatcher: req:3 'up' [eth0]: new request (3 scripts)
+Mar 16 15:01:04 centos7 nm-dispatcher: req:3 'up' [eth0]: start running ordered scripts...
+Mar 16 15:01:04 centos7 NetworkManager[640]: <info>  [1742151664.6671] manager: NetworkManager state is now CONNECTED_GLOBAL
+Mar 16 15:01:04 centos7 nm-dispatcher: req:4 'connectivity-change': new request (3 scripts)
+Mar 16 15:01:04 centos7 dhclient[695]: bound to 10.0.2.15 -- renewal in 40180 seconds.
+Mar 16 15:01:04 centos7 nm-dispatcher: req:4 'connectivity-change': start running ordered scripts...
+Mar 16 15:01:04 centos7 vboxadd: VirtualBox Guest Additions: Starting.
+Mar 16 15:01:04 centos7 systemd: Started vboxadd.service.
+Mar 16 15:01:04 centos7 systemd: Starting vboxadd-service.service...
+Mar 16 15:01:04 centos7 vboxadd-service: vboxadd-service.sh: Starting VirtualBox Guest Addition service.
+Mar 16 15:01:04 centos7 vboxadd-service.sh: Starting VirtualBox Guest Addition service.
+Mar 16 15:01:04 centos7 kernel: 19:01:04.976943 main     VBoxService 7.1.6 r167084 (verbosity: 0) linux.amd64 (Jan 21 2025 13:48:22) release log#01219:01:04.976946 main     Log opened 2025-03-16T19:01:04.976931000Z
+Mar 16 15:01:04 centos7 kernel: 19:01:04.977040 main     OS Product: Linux
+Mar 16 15:01:04 centos7 kernel: 19:01:04.977059 main     OS Release: 3.10.0-1160.119.1.el7.x86_64
+Mar 16 15:01:04 centos7 kernel: 19:01:04.977075 main     OS Version: #1 SMP Tue Jun 4 14:43:51 UTC 2024
+Mar 16 15:01:04 centos7 kernel: 19:01:04.977092 main     Executable: /opt/VBoxGuestAdditions-7.1.6/sbin/VBoxService#01219:01:04.977092 main     Process ID: 913#01219:01:04.977092 main     Package type: LINUX_64BITS_GENERIC
+Mar 16 15:01:04 centos7 kernel: 19:01:04.977671 main     7.1.6 r167084 started. Verbose level = 0
+Mar 16 15:01:04 centos7 vboxadd-service.sh: VirtualBox Guest Addition service started.
+Mar 16 15:01:04 centos7 systemd: Started vboxadd-service.service.
+Mar 16 15:01:04 centos7 kernel: 19:01:04.983901 main     vbglR3GuestCtrlDetectPeekGetCancelSupport: Supported (#1)
+Mar 16 15:01:04 centos7 kernel: 19:01:04.993006 vminfo   Error: Unable to connect to system D-Bus (1/3): D-Bus not installed
+Mar 16 15:01:05 centos7 systemd: Started Builds and install new kernel modules through DKMS.
+Mar 16 15:01:05 centos7 NetworkManager[640]: <info>  [1742151665.6878] policy: set 'System eth0' (eth0) as default for IPv6 routing and DNS
+Mar 16 15:01:06 centos7 kernel: e1000: eth1 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Mar 16 15:01:06 centos7 kernel: IPv6: ADDRCONF(NETDEV_CHANGE): eth1: link becomes ready
+Mar 16 15:01:06 centos7 NetworkManager[640]: <info>  [1742151666.5265] device (eth1): carrier: link connected
+Mar 16 15:01:06 centos7 NetworkManager[640]: <info>  [1742151666.5272] device (eth1): state change: unavailable -> disconnected (reason 'carrier-changed', sys-iface-state: 'managed')
+Mar 16 15:01:06 centos7 NetworkManager[640]: <info>  [1742151666.5355] policy: auto-activating connection 'System eth1' (9c92fad9-6ecb-3e6c-eb4d-8a47c6f50c04)
+Mar 16 15:01:06 centos7 NetworkManager[640]: <info>  [1742151666.5377] device (eth1): Activation: starting connection 'System eth1' (9c92fad9-6ecb-3e6c-eb4d-8a47c6f50c04)
+Mar 16 15:01:06 centos7 NetworkManager[640]: <info>  [1742151666.5387] device (eth1): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Mar 16 15:01:06 centos7 NetworkManager[640]: <info>  [1742151666.5423] device (eth1): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Mar 16 15:01:06 centos7 NetworkManager[640]: <info>  [1742151666.5461] device (eth1): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Mar 16 15:01:06 centos7 NetworkManager[640]: <info>  [1742151666.5527] device (eth1): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Mar 16 15:01:06 centos7 NetworkManager[640]: <info>  [1742151666.5560] device (eth1): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Mar 16 15:01:06 centos7 NetworkManager[640]: <info>  [1742151666.5565] device (eth1): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Mar 16 15:01:06 centos7 NetworkManager[640]: <info>  [1742151666.5628] device (eth1): Activation: successful, device activated.
+Mar 16 15:01:06 centos7 nm-dispatcher: req:5 'up' [eth1]: new request (3 scripts)
+Mar 16 15:01:06 centos7 nm-dispatcher: req:5 'up' [eth1]: start running ordered scripts...
+Mar 16 15:01:06 centos7 NetworkManager[640]: <info>  [1742151666.5653] manager: startup complete
+Mar 16 15:01:06 centos7 systemd: Started Network Manager Wait Online.
+Mar 16 15:01:06 centos7 systemd: Starting LSB: Bring up/down networking...
+Mar 16 15:01:06 centos7 systemd: Received SIGRTMIN+20 from PID 277 (plymouthd).
+Mar 16 15:01:06 centos7 network: Bringing up loopback interface:  [  OK  ]
+Mar 16 15:01:06 centos7 network: Bringing up interface eth0:  [  OK  ]
+Mar 16 15:01:06 centos7 network: Bringing up interface eth1:  [  OK  ]
+Mar 16 15:01:07 centos7 systemd: Started LSB: Bring up/down networking.
+Mar 16 15:01:07 centos7 systemd: Reached target Network.
+Mar 16 15:01:07 centos7 systemd: Starting Postfix Mail Transport Agent...
+Mar 16 15:01:07 centos7 systemd: Starting Dynamic System Tuning Daemon...
+Mar 16 15:01:07 centos7 systemd: Starting OpenSSH server daemon...
+Mar 16 15:01:07 centos7 systemd: Reached target Network is Online.
+Mar 16 15:01:07 centos7 systemd: Starting System Logging Service...
+Mar 16 15:01:07 centos7 systemd: Starting Notify NFS peers of a restart...
+Mar 16 15:01:07 centos7 systemd: Mounting /vagrant...
+Mar 16 15:01:07 centos7 sm-notify[1127]: Version 1.3.0 starting
+Mar 16 15:01:07 centos7 systemd: Started Notify NFS peers of a restart.
+Mar 16 15:01:07 centos7 rsyslogd: [origin software="rsyslogd" swVersion="8.24.0-57.el7_9.3" x-pid="1126" x-info="http://www.rsyslog.com"] start
+Mar 16 15:01:07 centos7 systemd: Started System Logging Service.
+Mar 16 15:01:07 centos7 kernel: vboxsf: g_fHostFeatures=0x8000000f g_fSfFeatures=0x1 g_uSfLastFunction=29
+Mar 16 15:01:07 centos7 kernel: vboxsf: Successfully loaded version 7.1.6 r167084
+Mar 16 15:01:07 centos7 kernel: vboxsf: Successfully loaded version 7.1.6 r167084 on 3.10.0-1160.119.1.el7.x86_64 SMP mod_unload modversions  (LINUX_VERSION_CODE=0x30a00)
+Mar 16 15:01:07 centos7 systemd: vagrant.mount mount process exited, code=exited status=1
+Mar 16 15:01:07 centos7 mount: /sbin/mount.vboxsf: shared folder '/vagrant' was not found (check VM settings / spelling)
+Mar 16 15:01:07 centos7 systemd: Failed to mount /vagrant.
+Mar 16 15:01:07 centos7 systemd: Dependency failed for Remote File Systems.
+Mar 16 15:01:07 centos7 systemd: Job remote-fs.target/start failed with result 'dependency'.
+Mar 16 15:01:07 centos7 kernel: vboxsf: SHFL_FN_MAP_FOLDER failed for '/vagrant': share not found
+Mar 16 15:01:07 centos7 systemd: Unit vagrant.mount entered failed state.
+Mar 16 15:01:07 centos7 systemd: Starting Permit User Sessions...
+Mar 16 15:01:07 centos7 systemd: Starting Crash recovery kernel arming...
+Mar 16 15:01:07 centos7 systemd: Started OpenSSH server daemon.
+Mar 16 15:01:07 centos7 systemd: Started Permit User Sessions.
+Mar 16 15:01:07 centos7 systemd: Starting Terminate Plymouth Boot Screen...
+Mar 16 15:01:07 centos7 systemd: Starting Wait for Plymouth Boot Screen to Quit...
+Mar 16 15:01:07 centos7 systemd: Started Command Scheduler.
+Mar 16 15:01:07 centos7 systemd: Received SIGRTMIN+21 from PID 277 (plymouthd).
+Mar 16 15:01:07 centos7 systemd: Started Terminate Plymouth Boot Screen.
+Mar 16 15:01:07 centos7 systemd: Started Wait for Plymouth Boot Screen to Quit.
+Mar 16 15:01:07 centos7 systemd: Started Getty on tty1.
+Mar 16 15:01:07 centos7 systemd: Reached target Login Prompts.
+Mar 16 15:01:07 centos7 kdumpctl: No memory reserved for crash kernel
+Mar 16 15:01:07 centos7 kdumpctl: Starting kdump: [FAILED]
+Mar 16 15:01:07 centos7 systemd: kdump.service: main process exited, code=exited, status=1/FAILURE
+Mar 16 15:01:07 centos7 systemd: Failed to start Crash recovery kernel arming.
+Mar 16 15:01:07 centos7 systemd: Unit kdump.service entered failed state.
+Mar 16 15:01:07 centos7 systemd: kdump.service failed.
+Mar 16 15:01:07 centos7 kernel: floppy0: no floppy controllers found
+Mar 16 15:01:07 centos7 kernel: work still pending
+Mar 16 15:01:07 centos7 systemd: Started Dynamic System Tuning Daemon.
+Mar 16 15:01:07 centos7 systemd: Started Postfix Mail Transport Agent.
+Mar 16 15:01:07 centos7 systemd: Reached target Multi-User System.
+Mar 16 15:01:07 centos7 systemd: Starting Update UTMP about System Runlevel Changes...
+Mar 16 15:01:07 centos7 systemd: Started Update UTMP about System Runlevel Changes.
+Mar 16 15:01:07 centos7 systemd: Startup finished in 509ms (kernel) + 2.328s (initrd) + 3.546s (userspace) = 6.384s.
+Mar 16 15:01:08 centos7 systemd: Created slice User Slice of vagrant.
+Mar 16 15:01:08 centos7 systemd: Started Session 1 of user vagrant.
+Mar 16 15:01:08 centos7 systemd-logind: New session 1 of user vagrant.
+Mar 16 15:01:09 centos7 kernel: 19:01:09.993785 vminfo   Error: Unable to connect to system D-Bus (2/3): D-Bus not installed
+Mar 16 15:01:10 centos7 NetworkManager[640]: <info>  [1742151670.0081] device (eth1): state change: activated -> deactivating (reason 'user-requested', sys-iface-state: 'managed')
+Mar 16 15:01:10 centos7 NetworkManager[640]: <info>  [1742151670.0118] audit: op="device-disconnect" interface="eth1" ifindex=3 pid=1854 uid=0 result="success"
+Mar 16 15:01:10 centos7 NetworkManager[640]: <info>  [1742151670.0119] device (eth1): state change: deactivating -> disconnected (reason 'user-requested', sys-iface-state: 'managed')
+Mar 16 15:01:10 centos7 nm-dispatcher: req:6 'down' [eth1]: new request (3 scripts)
+Mar 16 15:01:10 centos7 nm-dispatcher: req:6 'down' [eth1]: start running ordered scripts...
+Mar 16 15:01:10 centos7 systemd: Stopped Network Manager Wait Online.
+Mar 16 15:01:10 centos7 systemd: Stopping Network Manager Wait Online...
+Mar 16 15:01:10 centos7 systemd: Stopping Network Manager...
+Mar 16 15:01:10 centos7 NetworkManager[640]: <info>  [1742151670.0345] caught SIGTERM, shutting down normally.
+Mar 16 15:01:10 centos7 NetworkManager[640]: <info>  [1742151670.0407] dhcp4 (eth0): canceled DHCP transaction, DHCP client pid 695
+Mar 16 15:01:10 centos7 NetworkManager[640]: <info>  [1742151670.0408] dhcp4 (eth0): state changed bound -> done
+Mar 16 15:01:10 centos7 NetworkManager[640]: <info>  [1742151670.0408] device (eth0): DHCPv4: 480 seconds grace period started
+Mar 16 15:01:10 centos7 NetworkManager[640]: <info>  [1742151670.0411] manager: NetworkManager state is now CONNECTED_SITE
+Mar 16 15:01:10 centos7 nm-dispatcher: req:7 'connectivity-change': new request (3 scripts)
+Mar 16 15:01:10 centos7 nm-dispatcher: req:8 'connectivity-change': new request (3 scripts)
+Mar 16 15:01:10 centos7 NetworkManager[640]: <info>  [1742151670.0445] exiting (success)
+Mar 16 15:01:10 centos7 nm-dispatcher: req:7 'connectivity-change': start running ordered scripts...
+Mar 16 15:01:10 centos7 systemd: Stopped Network Manager.
+Mar 16 15:01:10 centos7 systemd: Starting Network Manager...
+Mar 16 15:01:10 centos7 NetworkManager[1884]: <info>  [1742151670.0677] NetworkManager (version 1.18.8-2.el7_9) is starting... (after a restart)
+Mar 16 15:01:10 centos7 NetworkManager[1884]: <info>  [1742151670.0679] Read config: /etc/NetworkManager/NetworkManager.conf (lib: 10-slaves-order.conf)
+Mar 16 15:01:10 centos7 nm-dispatcher: req:8 'connectivity-change': start running ordered scripts...
+Mar 16 15:01:10 centos7 NetworkManager[1884]: <info>  [1742151670.0758] bus-manager: acquired D-Bus service "org.freedesktop.NetworkManager"
+Mar 16 15:01:10 centos7 systemd: Started Network Manager.
+Mar 16 15:01:10 centos7 NetworkManager[1884]: <info>  [1742151670.0767] manager[0x56137f00c060]: monitoring kernel firmware directory '/lib/firmware'.
+Mar 16 15:01:10 centos7 systemd: Starting Network Manager Wait Online...
+Mar 16 15:01:10 centos7 NetworkManager[1884]: <info>  [1742151670.0829] hostname: hostname: using hostnamed
+Mar 16 15:01:10 centos7 NetworkManager[1884]: <info>  [1742151670.0829] hostname: hostname changed from (none) to "centos7"
+Mar 16 15:01:10 centos7 NetworkManager[1884]: <info>  [1742151670.0834] dns-mgr[0x56137eff0220]: init: dns=default,systemd-resolved rc-manager=file
+Mar 16 15:01:10 centos7 NetworkManager[1884]: <info>  [1742151670.0878] settings: Loaded settings plugin: SettingsPluginIfcfg ("/usr/lib64/NetworkManager/1.18.8-2.el7_9/libnm-settings-plugin-ifcfg-rh.so")
+Mar 16 15:01:10 centos7 NetworkManager[1884]: <info>  [1742151670.0881] settings: Loaded settings plugin: NMSIbftPlugin ("/usr/lib64/NetworkManager/1.18.8-2.el7_9/libnm-settings-plugin-ibft.so")
+Mar 16 15:01:10 centos7 NetworkManager[1884]: <info>  [1742151670.0881] settings: Loaded settings plugin: NMSKeyfilePlugin (internal)
+Mar 16 15:01:10 centos7 NetworkManager[1884]: <info>  [1742151670.0909] ifcfg-rh: new connection /etc/sysconfig/network-scripts/ifcfg-eth1 (9c92fad9-6ecb-3e6c-eb4d-8a47c6f50c04,"System eth1")
+Mar 16 15:01:10 centos7 NetworkManager[1884]: <info>  [1742151670.0923] ifcfg-rh: new connection /etc/sysconfig/network-scripts/ifcfg-eth0 (5fb06bd0-0bb0-7ffb-45f1-d6edd65f3e03,"System eth0")
+Mar 16 15:01:10 centos7 NetworkManager[1884]: <info>  [1742151670.1000] manager: rfkill: Wi-Fi enabled by radio killswitch; enabled by state file
+Mar 16 15:01:10 centos7 NetworkManager[1884]: <info>  [1742151670.1001] manager: rfkill: WWAN enabled by radio killswitch; enabled by state file
+Mar 16 15:01:10 centos7 NetworkManager[1884]: <info>  [1742151670.1002] manager: Networking is enabled by state file
+Mar 16 15:01:10 centos7 NetworkManager[1884]: <info>  [1742151670.1003] dhcp-init: Using DHCP client 'dhclient'
+Mar 16 15:01:10 centos7 NetworkManager[1884]: <info>  [1742151670.1008] Loaded device plugin: NMWifiFactory (/usr/lib64/NetworkManager/1.18.8-2.el7_9/libnm-device-plugin-wifi.so)
+Mar 16 15:01:10 centos7 NetworkManager[1884]: <info>  [1742151670.1019] Loaded device plugin: NMTeamFactory (/usr/lib64/NetworkManager/1.18.8-2.el7_9/libnm-device-plugin-team.so)
+Mar 16 15:01:10 centos7 NetworkManager[1884]: <info>  [1742151670.1024] device (lo): carrier: link connected
+Mar 16 15:01:10 centos7 NetworkManager[1884]: <info>  [1742151670.1027] manager: (lo): new Generic device (/org/freedesktop/NetworkManager/Devices/1)
+Mar 16 15:01:10 centos7 NetworkManager[1884]: <info>  [1742151670.1034] device (eth0): carrier: link connected
+Mar 16 15:01:10 centos7 NetworkManager[1884]: <info>  [1742151670.1037] manager: (eth0): new Ethernet device (/org/freedesktop/NetworkManager/Devices/2)
+Mar 16 15:01:10 centos7 NetworkManager[1884]: <info>  [1742151670.1051] manager: (eth0): assume: will attempt to assume matching connection 'System eth0' (5fb06bd0-0bb0-7ffb-45f1-d6edd65f3e03) (indicated)
+Mar 16 15:01:10 centos7 NetworkManager[1884]: <info>  [1742151670.1052] device (eth0): state change: unmanaged -> unavailable (reason 'connection-assumed', sys-iface-state: 'assume')
+Mar 16 15:01:10 centos7 NetworkManager[1884]: <info>  [1742151670.1062] device (eth0): state change: unavailable -> disconnected (reason 'connection-assumed', sys-iface-state: 'assume')
+Mar 16 15:01:10 centos7 NetworkManager[1884]: <info>  [1742151670.1070] device (eth0): Activation: starting connection 'System eth0' (5fb06bd0-0bb0-7ffb-45f1-d6edd65f3e03)
+Mar 16 15:01:10 centos7 NetworkManager[1884]: <info>  [1742151670.1071] device (eth1): carrier: link connected
+Mar 16 15:01:10 centos7 NetworkManager[1884]: <info>  [1742151670.1074] manager: (eth1): new Ethernet device (/org/freedesktop/NetworkManager/Devices/3)
+Mar 16 15:01:10 centos7 NetworkManager[1884]: <info>  [1742151670.1081] device (eth1): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+Mar 16 15:01:10 centos7 nm-dispatcher: req:9 'hostname': new request (3 scripts)
+Mar 16 15:01:10 centos7 nm-dispatcher: req:10 'connectivity-change': new request (3 scripts)
+Mar 16 15:01:10 centos7 NetworkManager[1884]: <info>  [1742151670.1135] device (eth0): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'assume')
+Mar 16 15:01:10 centos7 NetworkManager[1884]: <info>  [1742151670.1139] device (eth0): state change: prepare -> config (reason 'none', sys-iface-state: 'assume')
+Mar 16 15:01:10 centos7 NetworkManager[1884]: <info>  [1742151670.1141] device (eth1): state change: unavailable -> disconnected (reason 'none', sys-iface-state: 'managed')
+Mar 16 15:01:10 centos7 NetworkManager[1884]: <info>  [1742151670.1155] policy: auto-activating connection 'System eth1' (9c92fad9-6ecb-3e6c-eb4d-8a47c6f50c04)
+Mar 16 15:01:10 centos7 NetworkManager[1884]: <info>  [1742151670.1158] device (eth1): Activation: starting connection 'System eth1' (9c92fad9-6ecb-3e6c-eb4d-8a47c6f50c04)
+Mar 16 15:01:10 centos7 NetworkManager[1884]: <info>  [1742151670.1159] device (eth1): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Mar 16 15:01:10 centos7 NetworkManager[1884]: <info>  [1742151670.1160] manager: NetworkManager state is now CONNECTING
+Mar 16 15:01:10 centos7 NetworkManager[1884]: <info>  [1742151670.1161] device (eth1): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Mar 16 15:01:10 centos7 NetworkManager[1884]: <info>  [1742151670.1198] device (eth0): state change: config -> ip-config (reason 'none', sys-iface-state: 'assume')
+Mar 16 15:01:10 centos7 NetworkManager[1884]: <info>  [1742151670.1205] dhcp4 (eth0): activation: beginning transaction (timeout in 45 seconds)
+Mar 16 15:01:10 centos7 nm-dispatcher: req:9 'hostname': start running ordered scripts...
+Mar 16 15:01:10 centos7 NetworkManager[1884]: <info>  [1742151670.1295] dhcp4 (eth0): dhclient started with pid 1907
+Mar 16 15:01:10 centos7 NetworkManager[1884]: <info>  [1742151670.1300] device (eth1): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Mar 16 15:01:10 centos7 NetworkManager[1884]: <info>  [1742151670.1317] device (eth1): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Mar 16 15:01:10 centos7 NetworkManager[1884]: <info>  [1742151670.1324] device (eth1): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Mar 16 15:01:10 centos7 NetworkManager[1884]: <info>  [1742151670.1325] device (eth1): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Mar 16 15:01:10 centos7 NetworkManager[1884]: <info>  [1742151670.1328] manager: NetworkManager state is now CONNECTED_LOCAL
+Mar 16 15:01:10 centos7 NetworkManager[1884]: <info>  [1742151670.1355] policy: set 'System eth0' (eth0) as default for IPv4 routing and DNS
+Mar 16 15:01:10 centos7 NetworkManager[1884]: <info>  [1742151670.1356] policy: set 'System eth0' (eth0) as default for IPv6 routing and DNS
+Mar 16 15:01:10 centos7 NetworkManager[1884]: <info>  [1742151670.1357] device (eth1): Activation: successful, device activated.
+Mar 16 15:01:10 centos7 nm-dispatcher: req:11 'up' [eth1]: new request (3 scripts)
+Mar 16 15:01:10 centos7 nm-dispatcher: req:10 'connectivity-change': start running ordered scripts...
+Mar 16 15:01:10 centos7 dhclient[1907]: DHCPREQUEST on eth0 to 255.255.255.255 port 67 (xid=0x34168348)
+Mar 16 15:01:10 centos7 dhclient[1907]: DHCPACK from 10.0.2.2 (xid=0x34168348)
+Mar 16 15:01:10 centos7 NetworkManager[1884]: <info>  [1742151670.1564] dhcp4 (eth0):   address 10.0.2.15
+Mar 16 15:01:10 centos7 NetworkManager[1884]: <info>  [1742151670.1564] dhcp4 (eth0):   plen 24 (255.255.255.0)
+Mar 16 15:01:10 centos7 NetworkManager[1884]: <info>  [1742151670.1564] dhcp4 (eth0):   gateway 10.0.2.2
+Mar 16 15:01:10 centos7 NetworkManager[1884]: <info>  [1742151670.1565] dhcp4 (eth0):   lease time 86400
+Mar 16 15:01:10 centos7 NetworkManager[1884]: <info>  [1742151670.1565] dhcp4 (eth0):   hostname 'vbox'
+Mar 16 15:01:10 centos7 NetworkManager[1884]: <info>  [1742151670.1565] dhcp4 (eth0):   nameserver '10.0.2.3'
+Mar 16 15:01:10 centos7 NetworkManager[1884]: <info>  [1742151670.1565] dhcp4 (eth0):   domain name 'home'
+Mar 16 15:01:10 centos7 NetworkManager[1884]: <info>  [1742151670.1565] dhcp4 (eth0): state changed unknown -> bound
+Mar 16 15:01:10 centos7 NetworkManager[1884]: <info>  [1742151670.1570] device (eth0): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'assume')
+Mar 16 15:01:10 centos7 NetworkManager[1884]: <info>  [1742151670.1573] device (eth0): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'assume')
+Mar 16 15:01:10 centos7 NetworkManager[1884]: <info>  [1742151670.1574] device (eth0): state change: secondaries -> activated (reason 'none', sys-iface-state: 'assume')
+Mar 16 15:01:10 centos7 NetworkManager[1884]: <info>  [1742151670.1576] manager: NetworkManager state is now CONNECTED_SITE
+Mar 16 15:01:10 centos7 dhclient[1907]: bound to 10.0.2.15 -- renewal in 41161 seconds.
+Mar 16 15:01:10 centos7 NetworkManager[1884]: <info>  [1742151670.1656] device (eth0): Activation: successful, device activated.
+Mar 16 15:01:10 centos7 NetworkManager[1884]: <info>  [1742151670.1666] manager: NetworkManager state is now CONNECTED_GLOBAL
+Mar 16 15:01:10 centos7 NetworkManager[1884]: <info>  [1742151670.1677] manager: startup complete
+Mar 16 15:01:10 centos7 nm-dispatcher: req:12 'up' [eth0]: new request (3 scripts)
+Mar 16 15:01:10 centos7 nm-dispatcher: req:11 'up' [eth1]: start running ordered scripts...
+Mar 16 15:01:10 centos7 nm-dispatcher: req:13 'connectivity-change': new request (3 scripts)
+Mar 16 15:01:10 centos7 systemd: Started Network Manager Wait Online.
+Mar 16 15:01:10 centos7 nm-dispatcher: req:12 'up' [eth0]: start running ordered scripts...
+Mar 16 15:01:10 centos7 nm-dispatcher: req:13 'connectivity-change': start running ordered scripts...
+Mar 16 15:00:45 centos7 chronyd[648]: Selected source 193.93.164.195
+Mar 16 15:00:45 centos7 chronyd[648]: System clock wrong by -24.735335 seconds, adjustment started
+Mar 16 15:00:45 centos7 systemd: Time has been changed
+Mar 16 15:00:45 centos7 chronyd[648]: System clock was stepped by -24.735335 seconds
+Mar 16 15:00:46 centos7 dhclient[1907]: DHCPREQUEST on eth0 to 255.255.255.255 port 67 (xid=0x1e48ebdf)
+Mar 16 15:00:46 centos7 dhclient[1907]: System time has been changed. Unable to use existing leases. Restarting
+Mar 16 15:00:46 centos7 dhclient[1907]: DHCPACK from 10.0.2.2 (xid=0x1e48ebdf)
+Mar 16 15:00:46 centos7 NetworkManager[1884]: <info>  [1742151646.4345] dhcp4 (eth0):   address 10.0.2.15
+Mar 16 15:00:46 centos7 NetworkManager[1884]: <info>  [1742151646.4345] dhcp4 (eth0):   plen 24 (255.255.255.0)
+Mar 16 15:00:46 centos7 NetworkManager[1884]: <info>  [1742151646.4346] dhcp4 (eth0):   gateway 10.0.2.2
+Mar 16 15:00:46 centos7 NetworkManager[1884]: <info>  [1742151646.4346] dhcp4 (eth0):   lease time 86400
+Mar 16 15:00:46 centos7 NetworkManager[1884]: <info>  [1742151646.4346] dhcp4 (eth0):   hostname 'vbox'
+Mar 16 15:00:46 centos7 NetworkManager[1884]: <info>  [1742151646.4346] dhcp4 (eth0):   nameserver '10.0.2.3'
+Mar 16 15:00:46 centos7 NetworkManager[1884]: <info>  [1742151646.4346] dhcp4 (eth0):   domain name 'home'
+Mar 16 15:00:46 centos7 NetworkManager[1884]: <info>  [1742151646.4346] dhcp4 (eth0): state changed bound -> bound
+Mar 16 15:00:46 centos7 nm-dispatcher: req:14 'dhcp4-change' [eth0]: new request (3 scripts)
+Mar 16 15:00:46 centos7 nm-dispatcher: req:14 'dhcp4-change' [eth0]: start running ordered scripts...
+Mar 16 15:00:46 centos7 dhclient[1907]: bound to 10.0.2.15 -- renewal in 40084 seconds.
+Mar 16 15:00:47 centos7 systemd-logind: Removed session 1.
+Mar 16 15:00:47 centos7 systemd: Removed slice User Slice of vagrant.
+Mar 16 15:00:47 centos7 chronyd[648]: Selected source 81.2.191.34
+Mar 16 15:00:50 centos7 kernel: 19:00:50.260473 vminfo   Error: Unable to connect to system D-Bus (3/3): D-Bus not installed
+Mar 16 15:00:59 centos7 systemd: Created slice User Slice of vagrant.
+Mar 16 15:00:59 centos7 systemd-logind: New session 2 of user vagrant.
+Mar 16 15:00:59 centos7 systemd: Started Session 2 of user vagrant.
+Mar 16 15:01:00 centos7 systemd: Stopped target Multi-User System.
+Mar 17 13:56:09 centos7 kernel: Initializing cgroup subsys cpuset
+Mar 17 13:56:09 centos7 kernel: Initializing cgroup subsys cpu
+Mar 17 13:56:09 centos7 kernel: Initializing cgroup subsys cpuacct
+Mar 17 13:56:09 centos7 kernel: Linux version 3.10.0-1160.119.1.el7.x86_64 (mockbuild@kbuilder.bsys.centos.org) (gcc version 4.8.5 20150623 (Red Hat 4.8.5-44) (GCC) ) #1 SMP Tue Jun 4 14:43:51 UTC 2024
+Mar 17 13:56:09 centos7 kernel: Command line: BOOT_IMAGE=/vmlinuz-3.10.0-1160.119.1.el7.x86_64 root=/dev/mapper/vg00-lv_root ro no_timer_check console=tty0 console=ttyS0,115200 net.ifnames=0 biosdevname=0 crashkernel=auto rd.lvm.lv=vg00/lv_root rd.lvm.lv=vg00/lv_swap rhgb quiet LANG=en_US.UTF-8
+Mar 17 13:56:09 centos7 kernel: e820: BIOS-provided physical RAM map:
+Mar 17 13:56:09 centos7 kernel: BIOS-e820: [mem 0x0000000000000000-0x000000000009fbff] usable
+Mar 17 13:56:09 centos7 kernel: BIOS-e820: [mem 0x000000000009fc00-0x000000000009ffff] reserved
+Mar 17 13:56:09 centos7 kernel: BIOS-e820: [mem 0x00000000000f0000-0x00000000000fffff] reserved
+Mar 17 13:56:09 centos7 kernel: BIOS-e820: [mem 0x0000000000100000-0x000000003ffeffff] usable
+Mar 17 13:56:09 centos7 kernel: BIOS-e820: [mem 0x000000003fff0000-0x000000003fffffff] ACPI data
+Mar 17 13:56:09 centos7 kernel: BIOS-e820: [mem 0x00000000fec00000-0x00000000fec00fff] reserved
+Mar 17 13:56:09 centos7 kernel: BIOS-e820: [mem 0x00000000fee00000-0x00000000fee00fff] reserved
+Mar 17 13:56:09 centos7 kernel: BIOS-e820: [mem 0x00000000fffc0000-0x00000000ffffffff] reserved
+Mar 17 13:56:09 centos7 kernel: NX (Execute Disable) protection: active
+Mar 17 13:56:09 centos7 kernel: SMBIOS 2.5 present.
+Mar 17 13:56:09 centos7 kernel: DMI: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+Mar 17 13:56:09 centos7 kernel: Hypervisor detected: KVM
+Mar 17 13:56:09 centos7 kernel: e820: last_pfn = 0x3fff0 max_arch_pfn = 0x400000000
+Mar 17 13:56:09 centos7 kernel: PAT configuration [0-7]: WB  WC  UC- UC  WB  WP  UC- UC  
+Mar 17 13:56:09 centos7 kernel: found SMP MP-table at [mem 0x0009fbf0-0x0009fbff] mapped at [ffffffffff200bf0]
+Mar 17 13:56:09 centos7 kernel: RAMDISK: [mem 0x358b2000-0x36c50fff]
+Mar 17 13:56:09 centos7 kernel: Early table checksum verification disabled
+Mar 17 13:56:09 centos7 kernel: ACPI: RSDP 00000000000e0000 00024 (v02 VBOX  )
+Mar 17 13:56:09 centos7 kernel: ACPI: XSDT 000000003fff0030 0003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)
+Mar 17 13:56:09 centos7 kernel: ACPI: FACP 000000003fff00f0 000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+Mar 17 13:56:09 centos7 kernel: ACPI: DSDT 000000003fff0610 02353 (v02 VBOX   VBOXBIOS 00000002 INTL 20100528)
+Mar 17 13:56:09 centos7 kernel: ACPI: FACS 000000003fff0200 00040
+Mar 17 13:56:09 centos7 kernel: ACPI: APIC 000000003fff0240 0005C (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+Mar 17 13:56:09 centos7 kernel: ACPI: SSDT 000000003fff02a0 0036C (v01 VBOX   VBOXCPUT 00000002 INTL 20100528)
+Mar 17 13:56:09 centos7 kernel: No NUMA configuration found
+Mar 17 13:56:09 centos7 kernel: Faking a node at [mem 0x0000000000000000-0x000000003ffeffff]
+Mar 17 13:56:09 centos7 kernel: NODE_DATA(0) allocated [mem 0x3ffc9000-0x3ffeffff]
+Mar 17 13:56:09 centos7 kernel: crashkernel=auto resulted in zero bytes of reserved memory.
+Mar 17 13:56:09 centos7 kernel: kvm-clock: cpu 0, msr 0:3ff78001, primary cpu clock
+Mar 17 13:56:09 centos7 kernel: kvm-clock: Using msrs 4b564d01 and 4b564d00
+Mar 17 13:56:09 centos7 kernel: kvm-clock: using sched offset of 8262010496 cycles
+Mar 17 13:56:09 centos7 kernel: Zone ranges:
+Mar 17 13:56:09 centos7 kernel:  DMA      [mem 0x00001000-0x00ffffff]
+Mar 17 13:56:09 centos7 kernel:  DMA32    [mem 0x01000000-0xffffffff]
+Mar 17 13:56:09 centos7 kernel:  Normal   empty
+Mar 17 13:56:09 centos7 kernel: Movable zone start for each node
+Mar 17 13:56:09 centos7 kernel: Early memory node ranges
+Mar 17 13:56:09 centos7 kernel:  node   0: [mem 0x00001000-0x0009efff]
+Mar 17 13:56:09 centos7 kernel:  node   0: [mem 0x00100000-0x3ffeffff]
+Mar 17 13:56:09 centos7 kernel: Initmem setup node 0 [mem 0x00001000-0x3ffeffff]
+Mar 17 13:56:09 centos7 kernel: ACPI: PM-Timer IO Port: 0x4008
+Mar 17 13:56:09 centos7 kernel: ACPI: LAPIC (acpi_id[0x00] lapic_id[0x00] enabled)
+Mar 17 13:56:09 centos7 kernel: ACPI: LAPIC (acpi_id[0x01] lapic_id[0x01] enabled)
+Mar 17 13:56:09 centos7 kernel: ACPI: IOAPIC (id[0x02] address[0xfec00000] gsi_base[0])
+Mar 17 13:56:09 centos7 kernel: IOAPIC[0]: apic_id 2, version 32, address 0xfec00000, GSI 0-23
+Mar 17 13:56:09 centos7 kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Mar 17 13:56:09 centos7 kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 low level)
+Mar 17 13:56:09 centos7 kernel: Using ACPI (MADT) for SMP configuration information
+Mar 17 13:56:09 centos7 kernel: smpboot: Allowing 2 CPUs, 0 hotplug CPUs
+Mar 17 13:56:09 centos7 kernel: PM: Registered nosave memory: [mem 0x0009f000-0x0009ffff]
+Mar 17 13:56:09 centos7 kernel: PM: Registered nosave memory: [mem 0x000a0000-0x000effff]
+Mar 17 13:56:09 centos7 kernel: PM: Registered nosave memory: [mem 0x000f0000-0x000fffff]
+Mar 17 13:56:09 centos7 kernel: e820: [mem 0x40000000-0xfebfffff] available for PCI devices
+Mar 17 13:56:09 centos7 kernel: Booting paravirtualized kernel on KVM
+Mar 17 13:56:09 centos7 kernel: Detected CPU family 6 model 140 stepping 2
+Mar 17 13:56:09 centos7 kernel: Warning: Intel Processor - this hardware has not undergone upstream testing. Please consult http://wiki.centos.org/FAQ for more information
+Mar 17 13:56:09 centos7 kernel: setup_percpu: NR_CPUS:5120 nr_cpumask_bits:2 nr_cpu_ids:2 nr_node_ids:1
+Mar 17 13:56:09 centos7 kernel: percpu: Embedded 38 pages/cpu s118784 r8192 d28672 u1048576
+Mar 17 13:56:09 centos7 kernel: PV qspinlock hash table entries: 256 (order: 0, 4096 bytes)
+Mar 17 13:56:09 centos7 kernel: Built 1 zonelists in Node order, mobility grouping on.  Total pages: 257913
+Mar 17 13:56:09 centos7 kernel: Policy zone: DMA32
+Mar 17 13:56:09 centos7 kernel: Kernel command line: BOOT_IMAGE=/vmlinuz-3.10.0-1160.119.1.el7.x86_64 root=/dev/mapper/vg00-lv_root ro no_timer_check console=tty0 console=ttyS0,115200 net.ifnames=0 biosdevname=0 crashkernel=auto rd.lvm.lv=vg00/lv_root rd.lvm.lv=vg00/lv_swap rhgb quiet LANG=en_US.UTF-8
+Mar 17 13:56:09 centos7 kernel: PID hash table entries: 4096 (order: 3, 32768 bytes)
+Mar 17 13:56:09 centos7 kernel: x86/fpu: xstate_offset[2]: 0240, xstate_sizes[2]: 0100
+Mar 17 13:56:09 centos7 kernel: xsave: enabled xstate_bv 0x7, cntxt size 0x340 using standard form
+Mar 17 13:56:09 centos7 kernel: Memory: 991372k/1048512k available (7988k kernel code, 392k absent, 56748k reserved, 5756k data, 2176k init)
+Mar 17 13:56:09 centos7 kernel: SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=2, Nodes=1
+Mar 17 13:56:09 centos7 kernel: x86/pti: Unmapping kernel while in userspace
+Mar 17 13:56:09 centos7 kernel: Hierarchical RCU implementation.
+Mar 17 13:56:09 centos7 kernel: #011RCU restricting CPUs from NR_CPUS=5120 to nr_cpu_ids=2.
+Mar 17 13:56:09 centos7 kernel: NR_IRQS:327936 nr_irqs:440 0
+Mar 17 13:56:09 centos7 kernel: Console: colour VGA+ 80x25
+Mar 17 13:56:09 centos7 kernel: console [tty0] enabled
+Mar 17 13:56:09 centos7 kernel: console [ttyS0] enabled
+Mar 17 13:56:09 centos7 kernel: allocated 8388608 bytes of page_cgroup
+Mar 17 13:56:09 centos7 kernel: please try 'cgroup_disable=memory' option if you don't want memory cgroups
+Mar 17 13:56:09 centos7 kernel: tsc: Detected 2495.998 MHz processor
+Mar 17 13:56:09 centos7 kernel: Calibrating delay loop (skipped) preset value.. 4991.99 BogoMIPS (lpj=2495998)
+Mar 17 13:56:09 centos7 kernel: pid_max: default: 32768 minimum: 301
+Mar 17 13:56:09 centos7 kernel: Security Framework initialized
+Mar 17 13:56:09 centos7 kernel: SELinux:  Initializing.
+Mar 17 13:56:09 centos7 kernel: Yama: becoming mindful.
+Mar 17 13:56:09 centos7 kernel: Dentry cache hash table entries: 131072 (order: 8, 1048576 bytes)
+Mar 17 13:56:09 centos7 kernel: Inode-cache hash table entries: 65536 (order: 7, 524288 bytes)
+Mar 17 13:56:09 centos7 kernel: Mount-cache hash table entries: 2048 (order: 2, 16384 bytes)
+Mar 17 13:56:09 centos7 kernel: Mountpoint-cache hash table entries: 2048 (order: 2, 16384 bytes)
+Mar 17 13:56:09 centos7 kernel: Initializing cgroup subsys memory
+Mar 17 13:56:09 centos7 kernel: Initializing cgroup subsys devices
+Mar 17 13:56:09 centos7 kernel: Initializing cgroup subsys freezer
+Mar 17 13:56:09 centos7 kernel: Initializing cgroup subsys net_cls
+Mar 17 13:56:09 centos7 kernel: Initializing cgroup subsys blkio
+Mar 17 13:56:09 centos7 kernel: Initializing cgroup subsys perf_event
+Mar 17 13:56:09 centos7 kernel: Initializing cgroup subsys hugetlb
+Mar 17 13:56:09 centos7 kernel: Initializing cgroup subsys pids
+Mar 17 13:56:09 centos7 kernel: Initializing cgroup subsys net_prio
+Mar 17 13:56:09 centos7 kernel: Last level iTLB entries: 4KB 0, 2MB 0, 4MB 0
+Mar 17 13:56:09 centos7 kernel: Last level dTLB entries: 4KB 0, 2MB 0, 4MB 0
+Mar 17 13:56:09 centos7 kernel: tlb_flushall_shift: 6
+Mar 17 13:56:09 centos7 kernel: FEATURE SPEC_CTRL Not Present
+Mar 17 13:56:09 centos7 kernel: FEATURE IBPB_SUPPORT Not Present
+Mar 17 13:56:09 centos7 kernel: Spectre V1 : Mitigation: Load fences, usercopy/swapgs barriers and __user pointer sanitization
+Mar 17 13:56:09 centos7 kernel: Spectre V2 : Vulnerable: Retpoline without IBPB
+Mar 17 13:56:09 centos7 kernel: Filling RSB on context switch
+Mar 17 13:56:09 centos7 kernel: Speculative Store Bypass: Vulnerable
+Mar 17 13:56:09 centos7 kernel: MDS: Mitigation: Clear CPU buffers
+Mar 17 13:56:09 centos7 kernel: Freeing SMP alternatives: 28k freed
+Mar 17 13:56:09 centos7 kernel: ACPI: Core revision 20130517
+Mar 17 13:56:09 centos7 kernel: ACPI: All ACPI Tables successfully acquired
+Mar 17 13:56:09 centos7 kernel: ftrace: allocating 29713 entries in 117 pages
+Mar 17 13:56:09 centos7 kernel: Enabling x2apic
+Mar 17 13:56:09 centos7 kernel: Enabled x2apic
+Mar 17 13:56:09 centos7 kernel: Switched APIC routing to physical x2apic.
+Mar 17 13:56:09 centos7 kernel: ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+Mar 17 13:56:09 centos7 kernel: smpboot: CPU0: 11th Gen Intel(R) Core(TM) i5-11320H @ 3.20GHz (fam: 06, model: 8c, stepping: 02)
+Mar 17 13:56:09 centos7 kernel: Performance Events: unsupported p6 CPU model 140 no PMU driver, software events only.
+Mar 17 13:56:09 centos7 kernel: KVM setup paravirtual spinlock
+Mar 17 13:56:09 centos7 kernel: smpboot: Booting Node   0, Processors  #1 OK
+Mar 17 13:56:09 centos7 kernel: kvm-clock: cpu 1, msr 0:3ff78041, secondary cpu clock
+Mar 17 13:56:09 centos7 kernel: Brought up 2 CPUs
+Mar 17 13:56:09 centos7 kernel: smpboot: Max logical packages: 1
+Mar 17 13:56:09 centos7 kernel: smpboot: Total of 2 processors activated (9983.99 BogoMIPS)
+Mar 17 13:56:09 centos7 kernel: devtmpfs: initialized
+Mar 17 13:56:09 centos7 kernel: x86/mm: Memory block size: 128MB
+Mar 17 13:56:09 centos7 kernel: EVM: security.selinux
+Mar 17 13:56:09 centos7 kernel: EVM: security.ima
+Mar 17 13:56:09 centos7 kernel: EVM: security.capability
+Mar 17 13:56:09 centos7 kernel: atomic64 test passed for x86-64 platform with CX8 and with SSE
+Mar 17 13:56:09 centos7 kernel: pinctrl core: initialized pinctrl subsystem
+Mar 17 13:56:09 centos7 kernel: RTC time: 17:56:09, date: 03/17/25
+Mar 17 13:56:09 centos7 kernel: NET: Registered protocol family 16
+Mar 17 13:56:09 centos7 kernel: cpuidle: using governor haltpoll
+Mar 17 13:56:09 centos7 kernel: ACPI: bus type PCI registered
+Mar 17 13:56:09 centos7 kernel: acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+Mar 17 13:56:09 centos7 kernel: PCI: Using configuration type 1 for base access
+Mar 17 13:56:09 centos7 kernel: ACPI: Added _OSI(Module Device)
+Mar 17 13:56:09 centos7 kernel: ACPI: Added _OSI(Processor Device)
+Mar 17 13:56:09 centos7 kernel: ACPI: Added _OSI(3.0 _SCP Extensions)
+Mar 17 13:56:09 centos7 kernel: ACPI: Added _OSI(Processor Aggregator Device)
+Mar 17 13:56:09 centos7 kernel: ACPI: Added _OSI(Linux-Dell-Video)
+Mar 17 13:56:09 centos7 kernel: ACPI: Executed 1 blocks of module-level executable AML code
+Mar 17 13:56:09 centos7 kernel: ACPI: Interpreter enabled
+Mar 17 13:56:09 centos7 kernel: ACPI: (supports S0 S5)
+Mar 17 13:56:09 centos7 kernel: ACPI: Using IOAPIC for interrupt routing
+Mar 17 13:56:09 centos7 kernel: PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+Mar 17 13:56:09 centos7 kernel: ACPI: Enabled 2 GPEs in block 00 to 07
+Mar 17 13:56:09 centos7 kernel: ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+Mar 17 13:56:09 centos7 kernel: acpi PNP0A03:00: _OSC: OS supports [ASPM ClockPM Segments MSI]
+Mar 17 13:56:09 centos7 kernel: acpi PNP0A03:00: _OSC: not requesting OS control; OS requires [ExtendedConfig ASPM ClockPM MSI]
+Mar 17 13:56:09 centos7 kernel: acpi PNP0A03:00: fail to add MMCONFIG information, can't access extended PCI configuration space under this bridge.
+Mar 17 13:56:09 centos7 kernel: PCI host bridge to bus 0000:00
+Mar 17 13:56:09 centos7 kernel: pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+Mar 17 13:56:09 centos7 kernel: pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]
+Mar 17 13:56:09 centos7 kernel: pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]
+Mar 17 13:56:09 centos7 kernel: pci_bus 0000:00: root bus resource [mem 0x40000000-0xfdffffff window]
+Mar 17 13:56:09 centos7 kernel: pci_bus 0000:00: root bus resource [bus 00-ff]
+Mar 17 13:56:09 centos7 kernel: pci 0000:00:01.1: legacy IDE quirk: reg 0x10: [io  0x01f0-0x01f7]
+Mar 17 13:56:09 centos7 kernel: pci 0000:00:01.1: legacy IDE quirk: reg 0x14: [io  0x03f6]
+Mar 17 13:56:09 centos7 kernel: pci 0000:00:01.1: legacy IDE quirk: reg 0x18: [io  0x0170-0x0177]
+Mar 17 13:56:09 centos7 kernel: pci 0000:00:01.1: legacy IDE quirk: reg 0x1c: [io  0x0376]
+Mar 17 13:56:09 centos7 kernel: pci 0000:00:07.0: quirk: [io  0x4000-0x403f] claimed by PIIX4 ACPI
+Mar 17 13:56:09 centos7 kernel: pci 0000:00:07.0: quirk: [io  0x4100-0x410f] claimed by PIIX4 SMB
+Mar 17 13:56:09 centos7 kernel: ACPI: PCI Interrupt Link [LNKA] (IRQs 5 9 10 *11)
+Mar 17 13:56:09 centos7 kernel: ACPI: PCI Interrupt Link [LNKB] (IRQs 5 9 *10 11)
+Mar 17 13:56:09 centos7 kernel: ACPI: PCI Interrupt Link [LNKC] (IRQs 5 *9 10 11)
+Mar 17 13:56:09 centos7 kernel: ACPI: PCI Interrupt Link [LNKD] (IRQs 5 9 10 *11)
+Mar 17 13:56:09 centos7 kernel: vgaarb: device added: PCI:0000:00:02.0,decodes=io+mem,owns=io+mem,locks=none
+Mar 17 13:56:09 centos7 kernel: vgaarb: loaded
+Mar 17 13:56:09 centos7 kernel: vgaarb: bridge control possible 0000:00:02.0
+Mar 17 13:56:09 centos7 kernel: SCSI subsystem initialized
+Mar 17 13:56:09 centos7 kernel: ACPI: bus type USB registered
+Mar 17 13:56:09 centos7 kernel: usbcore: registered new interface driver usbfs
+Mar 17 13:56:09 centos7 kernel: usbcore: registered new interface driver hub
+Mar 17 13:56:09 centos7 kernel: usbcore: registered new device driver usb
+Mar 17 13:56:09 centos7 kernel: EDAC MC: Ver: 3.0.0
+Mar 17 13:56:09 centos7 kernel: PCI: Using ACPI for IRQ routing
+Mar 17 13:56:09 centos7 kernel: NetLabel: Initializing
+Mar 17 13:56:09 centos7 kernel: NetLabel:  domain hash size = 128
+Mar 17 13:56:09 centos7 kernel: NetLabel:  protocols = UNLABELED CIPSOv4
+Mar 17 13:56:09 centos7 kernel: NetLabel:  unlabeled traffic allowed by default
+Mar 17 13:56:09 centos7 kernel: amd_nb: Cannot enumerate AMD northbridges
+Mar 17 13:56:09 centos7 kernel: Switched to clocksource kvm-clock
+Mar 17 13:56:09 centos7 kernel: pnp: PnP ACPI init
+Mar 17 13:56:09 centos7 kernel: ACPI: bus type PNP registered
+Mar 17 13:56:09 centos7 kernel: pnp: PnP ACPI: found 2 devices
+Mar 17 13:56:09 centos7 kernel: ACPI: bus type PNP unregistered
+Mar 17 13:56:09 centos7 kernel: NET: Registered protocol family 2
+Mar 17 13:56:09 centos7 kernel: TCP established hash table entries: 8192 (order: 4, 65536 bytes)
+Mar 17 13:56:09 centos7 kernel: TCP bind hash table entries: 8192 (order: 5, 131072 bytes)
+Mar 17 13:56:09 centos7 kernel: TCP: Hash tables configured (established 8192 bind 8192)
+Mar 17 13:56:09 centos7 kernel: TCP: reno registered
+Mar 17 13:56:09 centos7 kernel: UDP hash table entries: 512 (order: 2, 16384 bytes)
+Mar 17 13:56:09 centos7 kernel: UDP-Lite hash table entries: 512 (order: 2, 16384 bytes)
+Mar 17 13:56:09 centos7 kernel: NET: Registered protocol family 1
+Mar 17 13:56:09 centos7 kernel: pci 0000:00:00.0: Limiting direct PCI/PCI transfers
+Mar 17 13:56:09 centos7 kernel: pci 0000:00:01.0: Activating ISA DMA hang workarounds
+Mar 17 13:56:09 centos7 kernel: Unpacking initramfs...
+Mar 17 13:56:09 centos7 kernel: Freeing initrd memory: 20092k freed
+Mar 17 13:56:09 centos7 kernel: platform rtc_cmos: registered platform RTC device (no PNP device found)
+Mar 17 13:56:09 centos7 kernel: sha1_ssse3: Using SHA-NI optimized SHA-1 implementation
+Mar 17 13:56:09 centos7 kernel: sha256_ssse3: Using SHA-256-NI optimized SHA-256 implementation
+Mar 17 13:56:09 centos7 kernel: futex hash table entries: 512 (order: 3, 32768 bytes)
+Mar 17 13:56:09 centos7 kernel: Initialise system trusted keyring
+Mar 17 13:56:09 centos7 kernel: audit: initializing netlink socket (disabled)
+Mar 17 13:56:09 centos7 kernel: type=2000 audit(1742234179.564:1): initialized
+Mar 17 13:56:09 centos7 kernel: HugeTLB registered 2 MB page size, pre-allocated 0 pages
+Mar 17 13:56:09 centos7 kernel: zpool: loaded
+Mar 17 13:56:09 centos7 kernel: zbud: loaded
+Mar 17 13:56:09 centos7 kernel: VFS: Disk quotas dquot_6.5.2
+Mar 17 13:56:09 centos7 kernel: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+Mar 17 13:56:09 centos7 kernel: Key type big_key registered
+Mar 17 13:56:09 centos7 kernel: NET: Registered protocol family 38
+Mar 17 13:56:09 centos7 kernel: Key type asymmetric registered
+Mar 17 13:56:09 centos7 kernel: Asymmetric key parser 'x509' registered
+Mar 17 13:56:09 centos7 kernel: Block layer SCSI generic (bsg) driver version 0.4 loaded (major 248)
+Mar 17 13:56:09 centos7 kernel: io scheduler noop registered
+Mar 17 13:56:09 centos7 kernel: io scheduler deadline registered (default)
+Mar 17 13:56:09 centos7 kernel: io scheduler cfq registered
+Mar 17 13:56:09 centos7 kernel: io scheduler mq-deadline registered
+Mar 17 13:56:09 centos7 kernel: io scheduler kyber registered
+Mar 17 13:56:09 centos7 kernel: pci_hotplug: PCI Hot Plug PCI Core version: 0.5
+Mar 17 13:56:09 centos7 kernel: pciehp: PCI Express Hot Plug Controller Driver version: 0.4
+Mar 17 13:56:09 centos7 kernel: shpchp: Standard Hot Plug PCI Controller Driver version: 0.4
+Mar 17 13:56:09 centos7 kernel: ACPI: AC Adapter [AC] (on-line)
+Mar 17 13:56:09 centos7 kernel: input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input0
+Mar 17 13:56:09 centos7 kernel: ACPI: Power Button [PWRF]
+Mar 17 13:56:09 centos7 kernel: input: Sleep Button as /devices/LNXSYSTM:00/LNXSLPBN:00/input/input1
+Mar 17 13:56:09 centos7 kernel: ACPI: Sleep Button [SLPF]
+Mar 17 13:56:09 centos7 kernel: GHES: HEST is not enabled!
+Mar 17 13:56:09 centos7 kernel: Serial: 8250/16550 driver, 4 ports, IRQ sharing enabled
+Mar 17 13:56:09 centos7 kernel: Non-volatile memory driver v1.3
+Mar 17 13:56:09 centos7 kernel: Linux agpgart interface v0.103
+Mar 17 13:56:09 centos7 kernel: crash memory driver: version 1.1
+Mar 17 13:56:09 centos7 kernel: rdac: device handler registered
+Mar 17 13:56:09 centos7 kernel: hp_sw: device handler registered
+Mar 17 13:56:09 centos7 kernel: emc: device handler registered
+Mar 17 13:56:09 centos7 kernel: alua: device handler registered
+Mar 17 13:56:09 centos7 kernel: libphy: Fixed MDIO Bus: probed
+Mar 17 13:56:09 centos7 kernel: ACPI: Battery Slot [BAT0] (battery present)
+Mar 17 13:56:09 centos7 kernel: ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Mar 17 13:56:09 centos7 kernel: ehci-pci: EHCI PCI platform driver
+Mar 17 13:56:09 centos7 kernel: ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+Mar 17 13:56:09 centos7 kernel: ohci-pci: OHCI PCI platform driver
+Mar 17 13:56:09 centos7 kernel: uhci_hcd: USB Universal Host Controller Interface driver
+Mar 17 13:56:09 centos7 kernel: usbcore: registered new interface driver usbserial_generic
+Mar 17 13:56:09 centos7 kernel: usbserial: USB Serial support registered for generic
+Mar 17 13:56:09 centos7 kernel: i8042: PNP: PS/2 Controller [PNP0303:PS2K,PNP0f03:PS2M] at 0x60,0x64 irq 1,12
+Mar 17 13:56:09 centos7 kernel: serio: i8042 KBD port at 0x60,0x64 irq 1
+Mar 17 13:56:09 centos7 kernel: serio: i8042 AUX port at 0x60,0x64 irq 12
+Mar 17 13:56:09 centos7 kernel: mousedev: PS/2 mouse device common for all mice
+Mar 17 13:56:09 centos7 kernel: input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input2
+Mar 17 13:56:09 centos7 kernel: rtc_cmos rtc_cmos: rtc core: registered rtc_cmos as rtc0
+Mar 17 13:56:09 centos7 kernel: rtc_cmos rtc_cmos: alarms up to one day, 114 bytes nvram
+Mar 17 13:56:09 centos7 kernel: hidraw: raw HID events driver (C) Jiri Kosina
+Mar 17 13:56:09 centos7 kernel: usbcore: registered new interface driver usbhid
+Mar 17 13:56:09 centos7 kernel: usbhid: USB HID core driver
+Mar 17 13:56:09 centos7 kernel: drop_monitor: Initializing network drop monitor service
+Mar 17 13:56:09 centos7 kernel: Netfilter messages via NETLINK v0.30.
+Mar 17 13:56:09 centos7 kernel: TCP: cubic registered
+Mar 17 13:56:09 centos7 kernel: Initializing XFRM netlink socket
+Mar 17 13:56:09 centos7 kernel: NET: Registered protocol family 10
+Mar 17 13:56:09 centos7 kernel: random: fast init done
+Mar 17 13:56:09 centos7 kernel: NET: Registered protocol family 17
+Mar 17 13:56:09 centos7 kernel: mpls_gso: MPLS GSO support
+Mar 17 13:56:09 centos7 kernel: mce: Using 0 MCE banks
+Mar 17 13:56:09 centos7 kernel: Loading compiled-in X.509 certificates
+Mar 17 13:56:09 centos7 kernel: Loaded X.509 cert 'CentOS Linux kpatch signing key: ea0413152cde1d98ebdca3fe6f0230904c9ef717'
+Mar 17 13:56:09 centos7 kernel: Loaded X.509 cert 'CentOS Linux Driver update signing key: 7f421ee0ab69461574bb358861dbe77762a4201b'
+Mar 17 13:56:09 centos7 kernel: Loaded X.509 cert 'CentOS Linux kernel signing key: 68ea103f2c90a8dc0bb0446c06d14561f29e1172'
+Mar 17 13:56:09 centos7 kernel: registered taskstats version 1
+Mar 17 13:56:09 centos7 kernel: page_owner is disabled
+Mar 17 13:56:09 centos7 kernel: Key type trusted registered
+Mar 17 13:56:09 centos7 kernel: Key type encrypted registered
+Mar 17 13:56:09 centos7 kernel: IMA: No TPM chip found, activating TPM-bypass! (rc=-19)
+Mar 17 13:56:09 centos7 kernel: BERT: Boot Error Record Table support is disabled. Enable it by using bert_enable as kernel parameter.
+Mar 17 13:56:09 centos7 kernel:  Magic number: 1:952:946
+Mar 17 13:56:09 centos7 kernel: cpuid cpu1: hash matches
+Mar 17 13:56:09 centos7 kernel: tty tty3: hash matches
+Mar 17 13:56:09 centos7 kernel: processor cpu1: hash matches
+Mar 17 13:56:09 centos7 kernel: rtc_cmos rtc_cmos: setting system clock to 2025-03-17 17:56:09 UTC (1742234169)
+Mar 17 13:56:09 centos7 kernel: Freeing unused kernel memory: 2176k freed
+Mar 17 13:56:09 centos7 kernel: Write protecting the kernel read-only data: 12288k
+Mar 17 13:56:09 centos7 kernel: Freeing unused kernel memory: 192k freed
+Mar 17 13:56:09 centos7 kernel: Freeing unused kernel memory: 524k freed
+Mar 17 13:56:09 centos7 systemd[1]: systemd 219 running in system mode. (+PAM +AUDIT +SELINUX +IMA -APPARMOR +SMACK +SYSVINIT +UTMP +LIBCRYPTSETUP +GCRYPT +GNUTLS +ACL +XZ +LZ4 -SECCOMP +BLKID +ELFUTILS +KMOD +IDN)
+Mar 17 13:56:09 centos7 systemd[1]: Detected virtualization kvm.
+Mar 17 13:56:09 centos7 systemd[1]: Detected architecture x86-64.
+Mar 17 13:56:09 centos7 systemd[1]: Running in initial RAM disk.
+Mar 17 13:56:09 centos7 systemd[1]: Set hostname to <centos7>.
+Mar 17 13:56:09 centos7 systemd[1]: Created slice Root Slice.
+Mar 17 13:56:09 centos7 systemd[1]: Listening on udev Control Socket.
+Mar 17 13:56:09 centos7 systemd[1]: Reached target Local File Systems.
+Mar 17 13:56:09 centos7 systemd[1]: Reached target Swap.
+Mar 17 13:56:09 centos7 systemd[1]: Listening on udev Kernel Socket.
+Mar 17 13:56:09 centos7 systemd[1]: Reached target Timers.
+Mar 17 13:56:09 centos7 systemd[1]: Listening on Journal Socket.
+Mar 17 13:56:09 centos7 systemd[1]: Reached target Sockets.
+Mar 17 13:56:09 centos7 systemd[1]: Created slice System Slice.
+Mar 17 13:56:09 centos7 systemd[1]: Starting Setup Virtual Console...
+Mar 17 13:56:09 centos7 systemd[1]: Starting Create list of required static device nodes for the current kernel...
+Mar 17 13:56:09 centos7 systemd[1]: Starting dracut cmdline hook...
+Mar 17 13:56:09 centos7 systemd[1]: Reached target Slices.
+Mar 17 13:56:09 centos7 systemd[1]: Starting Journal Service...
+Mar 17 13:56:09 centos7 systemd[1]: Starting Apply Kernel Variables...
+Mar 17 13:56:09 centos7 systemd[1]: Started Create list of required static device nodes for the current kernel.
+Mar 17 13:56:09 centos7 systemd[1]: Starting Create Static Device Nodes in /dev...
+Mar 17 13:56:09 centos7 systemd[1]: Started Apply Kernel Variables.
+Mar 17 13:56:09 centos7 journal: Journal started
+Mar 17 13:56:09 centos7 systemd[1]: Started Journal Service.
+Mar 17 13:56:09 centos7 systemd: Started Create Static Device Nodes in /dev.
+Mar 17 13:56:09 centos7 systemd: Started dracut cmdline hook.
+Mar 17 13:56:09 centos7 systemd: Starting dracut pre-udev hook...
+Mar 17 13:56:09 centos7 systemd: Started Setup Virtual Console.
+Mar 17 13:56:09 centos7 kernel: device-mapper: uevent: version 1.0.3
+Mar 17 13:56:09 centos7 kernel: device-mapper: ioctl: 4.37.1-ioctl (2018-04-03) initialised: dm-devel@redhat.com
+Mar 17 13:56:09 centos7 kernel: psmouse serio1: alps: Unknown ALPS touchpad: E7=10 00 64, EC=10 00 64
+Mar 17 13:56:09 centos7 kernel: input: ImExPS/2 Generic Explorer Mouse as /devices/platform/i8042/serio1/input/input3
+Mar 17 13:56:09 centos7 systemd: Started dracut pre-udev hook.
+Mar 17 13:56:09 centos7 systemd: Starting udev Kernel Device Manager...
+Mar 17 13:56:09 centos7 systemd-udevd: starting version 219
+Mar 17 13:56:09 centos7 systemd-udevd: Network interface NamePolicy= disabled on kernel command line, ignoring.
+Mar 17 13:56:09 centos7 systemd: Started udev Kernel Device Manager.
+Mar 17 13:56:09 centos7 systemd: Starting udev Coldplug all Devices...
+Mar 17 13:56:09 centos7 systemd: Mounting Configuration File System...
+Mar 17 13:56:09 centos7 systemd: Mounted Configuration File System.
+Mar 17 13:56:09 centos7 systemd: Started udev Coldplug all Devices.
+Mar 17 13:56:09 centos7 systemd: Starting dracut initqueue hook...
+Mar 17 13:56:09 centos7 systemd: Starting Show Plymouth Boot Screen...
+Mar 17 13:56:09 centos7 systemd: Reached target System Initialization.
+Mar 17 13:56:09 centos7 kernel: e1000: Intel(R) PRO/1000 Network Driver - version 7.3.21-k8-NAPI
+Mar 17 13:56:09 centos7 kernel: e1000: Copyright (c) 1999-2006 Intel Corporation.
+Mar 17 13:56:09 centos7 systemd: Started Show Plymouth Boot Screen.
+Mar 17 13:56:09 centos7 systemd: Started Forward Password Requests to Plymouth Directory Watch.
+Mar 17 13:56:09 centos7 systemd: Reached target Paths.
+Mar 17 13:56:09 centos7 systemd: Reached target Basic System.
+Mar 17 13:56:10 centos7 kernel: e1000 0000:00:03.0 eth0: (PCI:33MHz:32-bit) 08:00:27:e8:7d:cf
+Mar 17 13:56:10 centos7 kernel: e1000 0000:00:03.0 eth0: Intel(R) PRO/1000 Network Connection
+Mar 17 13:56:10 centos7 kernel: scsi host0: ata_piix
+Mar 17 13:56:10 centos7 kernel: scsi host1: ata_piix
+Mar 17 13:56:10 centos7 kernel: ata1: PATA max UDMA/33 cmd 0x1f0 ctl 0x3f6 bmdma 0xd000 irq 14
+Mar 17 13:56:10 centos7 kernel: ata2: PATA max UDMA/33 cmd 0x170 ctl 0x376 bmdma 0xd008 irq 15
+Mar 17 13:56:10 centos7 kernel: tsc: Refined TSC clocksource calibration: 2495.765 MHz
+Mar 17 13:56:10 centos7 kernel: ahci 0000:00:0d.0: SSS flag set, parallel bus scan disabled
+Mar 17 13:56:10 centos7 kernel: ahci 0000:00:0d.0: AHCI 0001.0100 32 slots 1 ports 3 Gbps 0x1 impl SATA mode
+Mar 17 13:56:10 centos7 kernel: ahci 0000:00:0d.0: flags: 64bit ncq stag only ccc 
+Mar 17 13:56:10 centos7 kernel: scsi host2: ahci
+Mar 17 13:56:10 centos7 kernel: ata3: SATA max UDMA/133 abar m8192@0xf0840000 port 0xf0840100 irq 21
+Mar 17 13:56:10 centos7 kernel: ata3: SATA link up 3.0 Gbps (SStatus 123 SControl 300)
+Mar 17 13:56:10 centos7 kernel: ata3.00: ATA-6: VBOX HARDDISK, 1.0, max UDMA/133
+Mar 17 13:56:10 centos7 kernel: ata3.00: 81920000 sectors, multi 128: LBA48 NCQ (depth 31/32)
+Mar 17 13:56:10 centos7 kernel: ata3.00: configured for UDMA/133
+Mar 17 13:56:10 centos7 kernel: scsi 2:0:0:0: Direct-Access     ATA      VBOX HARDDISK    1.0  PQ: 0 ANSI: 5
+Mar 17 13:56:10 centos7 kernel: sd 2:0:0:0: [sda] 81920000 512-byte logical blocks: (41.9 GB/39.0 GiB)
+Mar 17 13:56:10 centos7 kernel: sd 2:0:0:0: [sda] Write Protect is off
+Mar 17 13:56:10 centos7 kernel: sd 2:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Mar 17 13:56:10 centos7 kernel: sda: sda1 sda2
+Mar 17 13:56:10 centos7 kernel: sd 2:0:0:0: [sda] Attached SCSI disk
+Mar 17 13:56:10 centos7 kernel: e1000 0000:00:08.0 eth1: (PCI:33MHz:32-bit) 08:00:27:dd:80:ee
+Mar 17 13:56:10 centos7 kernel: e1000 0000:00:08.0 eth1: Intel(R) PRO/1000 Network Connection
+Mar 17 13:56:11 centos7 systemd: Found device /dev/mapper/vg00-lv_root.
+Mar 17 13:56:11 centos7 systemd: Starting File System Check on /dev/mapper/vg00-lv_root...
+Mar 17 13:56:11 centos7 systemd-fsck: /dev/mapper/vg00-lv_root: clean, 83115/2293760 files, 779098/9175040 blocks
+Mar 17 13:56:11 centos7 systemd: Started File System Check on /dev/mapper/vg00-lv_root.
+Mar 17 13:56:11 centos7 systemd: Started dracut initqueue hook.
+Mar 17 13:56:11 centos7 systemd: Reached target Remote File Systems (Pre).
+Mar 17 13:56:11 centos7 systemd: Reached target Remote File Systems.
+Mar 17 13:56:11 centos7 systemd: Mounting /sysroot...
+Mar 17 13:56:11 centos7 kernel: EXT4-fs (dm-0): mounted filesystem with ordered data mode. Opts: (null)
+Mar 17 13:56:11 centos7 systemd: Mounted /sysroot.
+Mar 17 13:56:11 centos7 systemd: Reached target Initrd Root File System.
+Mar 17 13:56:11 centos7 systemd: Starting Reload Configuration from the Real Root...
+Mar 17 13:56:11 centos7 systemd: Reloading.
+Mar 17 13:56:11 centos7 systemd: Started Reload Configuration from the Real Root.
+Mar 17 13:56:11 centos7 systemd: Reached target Initrd File Systems.
+Mar 17 13:56:11 centos7 systemd: Reached target Initrd Default Target.
+Mar 17 13:56:11 centos7 systemd: Starting dracut pre-pivot and cleanup hook...
+Mar 17 13:56:11 centos7 systemd: Started dracut pre-pivot and cleanup hook.
+Mar 17 13:56:11 centos7 systemd: Starting Cleaning Up and Shutting Down Daemons...
+Mar 17 13:56:11 centos7 systemd: Stopped target Timers.
+Mar 17 13:56:11 centos7 systemd: Stopped dracut pre-pivot and cleanup hook.
+Mar 17 13:56:11 centos7 systemd: Stopped target Remote File Systems.
+Mar 17 13:56:11 centos7 systemd: Stopped target Remote File Systems (Pre).
+Mar 17 13:56:11 centos7 systemd: Stopped dracut initqueue hook.
+Mar 17 13:56:11 centos7 systemd: Starting Plymouth switch root service...
+Mar 17 13:56:11 centos7 systemd: Stopped target Initrd Default Target.
+Mar 17 13:56:11 centos7 systemd: Stopped target Basic System.
+Mar 17 13:56:11 centos7 systemd: Stopped target Slices.
+Mar 17 13:56:11 centos7 systemd: Stopped target Paths.
+Mar 17 13:56:11 centos7 systemd: Stopped target System Initialization.
+Mar 17 13:56:11 centos7 systemd: Stopped target Swap.
+Mar 17 13:56:11 centos7 systemd: Stopped udev Coldplug all Devices.
+Mar 17 13:56:11 centos7 systemd: Stopping udev Kernel Device Manager...
+Mar 17 13:56:11 centos7 systemd: Stopped Apply Kernel Variables.
+Mar 17 13:56:11 centos7 systemd: Stopped target Local File Systems.
+Mar 17 13:56:11 centos7 systemd: Stopped target Sockets.
+Mar 17 13:56:11 centos7 systemd: Stopped udev Kernel Device Manager.
+Mar 17 13:56:11 centos7 systemd: Stopped dracut pre-udev hook.
+Mar 17 13:56:11 centos7 systemd: Stopped dracut cmdline hook.
+Mar 17 13:56:11 centos7 systemd: Stopped Create Static Device Nodes in /dev.
+Mar 17 13:56:11 centos7 systemd: Stopped Create list of required static device nodes for the current kernel.
+Mar 17 13:56:11 centos7 systemd: Closed udev Kernel Socket.
+Mar 17 13:56:11 centos7 systemd: Closed udev Control Socket.
+Mar 17 13:56:11 centos7 systemd: Starting Cleanup udevd DB...
+Mar 17 13:56:11 centos7 systemd: Started Cleaning Up and Shutting Down Daemons.
+Mar 17 13:56:11 centos7 systemd: Started Plymouth switch root service.
+Mar 17 13:56:11 centos7 systemd: Started Cleanup udevd DB.
+Mar 17 13:56:11 centos7 systemd: Reached target Switch Root.
+Mar 17 13:56:11 centos7 systemd: Starting Switch Root...
+Mar 17 13:56:11 centos7 systemd: Switching root.
+Mar 17 13:56:11 centos7 journal: Journal stopped
+Mar 17 13:56:11 centos7 journal: Runtime journal is using 6.1M (max allowed 49.5M, trying to leave 74.2M free of 489.0M available → current limit 49.5M).
+Mar 17 13:56:11 centos7 systemd-journald[98]: Received SIGTERM from PID 1 (systemd).
+Mar 17 13:56:11 centos7 kernel: SELinux:  Disabled at runtime.
+Mar 17 13:56:11 centos7 kernel: type=1404 audit(1742234171.691:2): selinux=0 auid=4294967295 ses=4294967295
+Mar 17 13:56:11 centos7 kernel: ip_tables: (C) 2000-2006 Netfilter Core Team
+Mar 17 13:56:11 centos7 systemd[1]: Inserted module 'ip_tables'
+Mar 17 13:56:11 centos7 journal: Journal started
+Mar 17 13:56:11 centos7 systemd: systemd 219 running in system mode. (+PAM +AUDIT +SELINUX +IMA -APPARMOR +SMACK +SYSVINIT +UTMP +LIBCRYPTSETUP +GCRYPT +GNUTLS +ACL +XZ +LZ4 -SECCOMP +BLKID +ELFUTILS +KMOD +IDN)
+Mar 17 13:56:11 centos7 systemd: Detected virtualization kvm.
+Mar 17 13:56:11 centos7 systemd: Detected architecture x86-64.
+Mar 17 13:56:11 centos7 systemd: Set hostname to <centos7>.
+Mar 17 13:56:11 centos7 systemd: Mounted Huge Pages File System.
+Mar 17 13:56:11 centos7 systemd: Mounted POSIX Message Queue File System.
+Mar 17 13:56:11 centos7 kernel: EXT4-fs (dm-0): re-mounted. Opts: (null)
+Mar 17 13:56:11 centos7 systemd: Started Apply Kernel Variables.
+Mar 17 13:56:11 centos7 systemd: Started Remount Root and Kernel File Systems.
+Mar 17 13:56:11 centos7 systemd: Mounted Debug File System.
+Mar 17 13:56:11 centos7 systemd: Starting udev Coldplug all Devices...
+Mar 17 13:56:11 centos7 systemd: Starting Flush Journal to Persistent Storage...
+Mar 17 13:56:11 centos7 systemd: Starting Configure read-only root support...
+Mar 17 13:56:11 centos7 systemd: Started Read and set NIS domainname from /etc/sysconfig/network.
+Mar 17 13:56:11 centos7 systemd: Started Create Static Device Nodes in /dev.
+Mar 17 13:56:11 centos7 systemd: Reached target Local File Systems (Pre).
+Mar 17 13:56:11 centos7 systemd: Starting udev Kernel Device Manager...
+Mar 17 13:56:11 centos7 systemd: Started Flush Journal to Persistent Storage.
+Mar 17 13:56:11 centos7 systemd: Started udev Coldplug all Devices.
+Mar 17 13:56:11 centos7 systemd-udevd: starting version 219
+Mar 17 13:56:11 centos7 systemd-udevd: Network interface NamePolicy= disabled on kernel command line, ignoring.
+Mar 17 13:56:11 centos7 systemd: Started Configure read-only root support.
+Mar 17 13:56:11 centos7 systemd: Starting Load/Save Random Seed...
+Mar 17 13:56:11 centos7 systemd: Started Load/Save Random Seed.
+Mar 17 13:56:11 centos7 systemd: Started udev Kernel Device Manager.
+Mar 17 13:56:11 centos7 kernel: vboxguest: loading out-of-tree module taints kernel.
+Mar 17 13:56:11 centos7 kernel: vboxguest: module verification failed: signature and/or required key missing - tainting kernel
+Mar 17 13:56:11 centos7 kernel: ACPI: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+Mar 17 13:56:11 centos7 kernel: input: Video Bus as /devices/LNXSYSTM:00/device:00/PNP0A03:00/LNXVIDEO:00/input/input4
+Mar 17 13:56:11 centos7 kernel: piix4_smbus 0000:00:07.0: SMBus Host Controller at 0x4100, revision 0
+Mar 17 13:56:11 centos7 kernel: vgdrvHeartbeatInit: Setting up heartbeat to trigger every 2000 milliseconds
+Mar 17 13:56:11 centos7 kernel: Host supports full mouse state reporting, switching to extended mouse integration protocol
+Mar 17 13:56:11 centos7 kernel: input: VirtualBox mouse integration as /devices/pci0000:00/0000:00:04.0/input/input5
+Mar 17 13:56:11 centos7 kernel: vboxguest: Successfully loaded version 7.1.6 r167084
+Mar 17 13:56:11 centos7 kernel: vboxguest: misc device minor 58, IRQ 20, I/O port d020, MMIO at 00000000f0400000 (size 0x400000)
+Mar 17 13:56:11 centos7 kernel: sd 2:0:0:0: Attached scsi generic sg0 type 0
+Mar 17 13:56:11 centos7 kernel: cryptd: max_cpu_qlen set to 1000
+Mar 17 13:56:11 centos7 kernel: AVX2 version of gcm_enc/dec engaged.
+Mar 17 13:56:11 centos7 kernel: AES CTR mode by8 optimization enabled
+Mar 17 13:56:11 centos7 systemd: Created slice system-lvm2\x2dpvscan.slice.
+Mar 17 13:56:11 centos7 systemd: Starting LVM2 PV scan on device 8:2...
+Mar 17 13:56:11 centos7 systemd: Found device /dev/mapper/vg00-lv_swap.
+Mar 17 13:56:11 centos7 systemd: Activating swap /dev/mapper/vg00-lv_swap...
+Mar 17 13:56:12 centos7 systemd: Found device VBOX_HARDDISK 1.
+Mar 17 13:56:12 centos7 systemd: Starting File System Check on /dev/disk/by-uuid/f3cfdbb9-4453-4188-afa9-97ecd777c12e...
+Mar 17 13:56:12 centos7 kernel: Adding 3178492k swap on /dev/mapper/vg00-lv_swap.  Priority:-2 extents:1 across:3178492k FS
+Mar 17 13:56:12 centos7 systemd: Activated swap /dev/mapper/vg00-lv_swap.
+Mar 17 13:56:12 centos7 systemd: Started LVM2 metadata daemon.
+Mar 17 13:56:12 centos7 systemd: Reached target Swap.
+Mar 17 13:56:12 centos7 kernel: ppdev: user-space parallel port driver
+Mar 17 13:56:12 centos7 kernel: alg: No test for __gcm-aes-aesni (__driver-gcm-aes-aesni)
+Mar 17 13:56:12 centos7 kernel: alg: No test for __generic-gcm-aes-aesni (__driver-generic-gcm-aes-aesni)
+Mar 17 13:56:12 centos7 kernel: vboxvideo: loading version 7.1.6 r167084
+Mar 17 13:56:12 centos7 lvm: pvscan[533] activating all complete VGs for init
+Mar 17 13:56:12 centos7 lvm: pvscan[533] VG vg00 run autoactivation.
+Mar 17 13:56:12 centos7 lvm: 2 logical volume(s) in volume group "vg00" now active
+Mar 17 13:56:12 centos7 systemd: Started File System Check on /dev/disk/by-uuid/f3cfdbb9-4453-4188-afa9-97ecd777c12e.
+Mar 17 13:56:12 centos7 systemd-fsck: /dev/sda1: clean, 348/65536 files, 51814/262144 blocks
+Mar 17 13:56:12 centos7 systemd: Mounting /boot...
+Mar 17 13:56:12 centos7 systemd: Started LVM2 PV scan on device 8:2.
+Mar 17 13:56:12 centos7 kernel: EXT4-fs (sda1): mounted filesystem with ordered data mode. Opts: (null)
+Mar 17 13:56:12 centos7 systemd: Mounted /boot.
+Mar 17 13:56:12 centos7 systemd: Reached target Local File Systems.
+Mar 17 13:56:12 centos7 systemd: Starting Tell Plymouth To Write Out Runtime Data...
+Mar 17 13:56:12 centos7 systemd: Starting Preprocess NFS configuration...
+Mar 17 13:56:12 centos7 systemd: Starting Import network configuration from initramfs...
+Mar 17 13:56:12 centos7 systemd: Started Preprocess NFS configuration.
+Mar 17 13:56:12 centos7 systemd: Started Tell Plymouth To Write Out Runtime Data.
+Mar 17 13:56:12 centos7 systemd: Started Import network configuration from initramfs.
+Mar 17 13:56:12 centos7 systemd: Starting Create Volatile Files and Directories...
+Mar 17 13:56:12 centos7 systemd: Started Create Volatile Files and Directories.
+Mar 17 13:56:12 centos7 systemd: Starting Update UTMP about System Boot/Shutdown...
+Mar 17 13:56:12 centos7 systemd: Mounting RPC Pipe File System...
+Mar 17 13:56:12 centos7 systemd: Started Update UTMP about System Boot/Shutdown.
+Mar 17 13:56:12 centos7 systemd: Reached target System Initialization.
+Mar 17 13:56:12 centos7 systemd: Started Daily Cleanup of Temporary Directories.
+Mar 17 13:56:12 centos7 systemd: Reached target Timers.
+Mar 17 13:56:12 centos7 systemd: Started Flexible branding.
+Mar 17 13:56:12 centos7 systemd: Reached target Paths.
+Mar 17 13:56:12 centos7 systemd: Starting Socket activation for snappy daemon.
+Mar 17 13:56:12 centos7 systemd: Listening on RPCbind Server Activation Socket.
+Mar 17 13:56:12 centos7 systemd: Listening on D-Bus System Message Bus Socket.
+Mar 17 13:56:12 centos7 systemd: Listening on Socket activation for snappy daemon.
+Mar 17 13:56:12 centos7 systemd: Reached target Sockets.
+Mar 17 13:56:12 centos7 systemd: Reached target Basic System.
+Mar 17 13:56:12 centos7 systemd: Starting vboxadd.service...
+Mar 17 13:56:12 centos7 systemd: Starting Authorization Manager...
+Mar 17 13:56:12 centos7 systemd: Starting GSSAPI Proxy Daemon...
+Mar 17 13:56:12 centos7 systemd: Starting Resets System Activity Logs...
+Mar 17 13:56:12 centos7 systemd: Starting NTP client/server...
+Mar 17 13:56:12 centos7 systemd: Starting Builds and install new kernel modules through DKMS...
+Mar 17 13:56:12 centos7 systemd: Starting Login Service...
+Mar 17 13:56:12 centos7 systemd: Started D-Bus System Message Bus.
+Mar 17 13:56:12 centos7 polkitd[609]: Started polkitd version 0.112
+Mar 17 13:56:12 centos7 chronyd[632]: chronyd version 3.4 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +SECHASH +IPV6 +DEBUG)
+Mar 17 13:56:12 centos7 chronyd[632]: Frequency 502.830 +/- 0.137 ppm read from /var/lib/chrony/drift
+Mar 17 13:56:12 centos7 systemd: Starting Dump dmesg to /var/log/dmesg...
+Mar 17 13:56:12 centos7 systemd: Starting Network Manager...
+Mar 17 13:56:12 centos7 systemd: Started irqbalance daemon.
+Mar 17 13:56:12 centos7 kernel: RPC: Registered named UNIX socket transport module.
+Mar 17 13:56:12 centos7 kernel: RPC: Registered udp transport module.
+Mar 17 13:56:12 centos7 kernel: RPC: Registered tcp transport module.
+Mar 17 13:56:12 centos7 kernel: RPC: Registered tcp NFSv4.1 backchannel transport module.
+Mar 17 13:56:12 centos7 systemd: Mounted RPC Pipe File System.
+Mar 17 13:56:12 centos7 systemd: Started GSSAPI Proxy Daemon.
+Mar 17 13:56:12 centos7 systemd: Started Resets System Activity Logs.
+Mar 17 13:56:12 centos7 systemd-logind: Watching system buttons on /dev/input/event0 (Power Button)
+Mar 17 13:56:12 centos7 systemd-logind: Watching system buttons on /dev/input/event1 (Sleep Button)
+Mar 17 13:56:12 centos7 systemd-logind: Watching system buttons on /dev/input/event4 (Video Bus)
+Mar 17 13:56:12 centos7 systemd-logind: New seat seat0.
+Mar 17 13:56:12 centos7 systemd: Started Login Service.
+Mar 17 13:56:12 centos7 systemd: Reached target rpc_pipefs.target.
+Mar 17 13:56:12 centos7 systemd: Reached target NFS client services.
+Mar 17 13:56:12 centos7 systemd: Reached target Remote File Systems (Pre).
+Mar 17 13:56:12 centos7 kernel: random: crng init done
+Mar 17 13:56:12 centos7 systemd: Started Authorization Manager.
+Mar 17 13:56:12 centos7 systemd: Started NTP client/server.
+Mar 17 13:56:12 centos7 NetworkManager[638]: <info>  [1742234172.2150] NetworkManager (version 1.18.8-2.el7_9) is starting... (for the first time)
+Mar 17 13:56:12 centos7 NetworkManager[638]: <info>  [1742234172.2151] Read config: /etc/NetworkManager/NetworkManager.conf (lib: 10-slaves-order.conf)
+Mar 17 13:56:12 centos7 systemd: Started Dump dmesg to /var/log/dmesg.
+Mar 17 13:56:12 centos7 systemd: Started Network Manager.
+Mar 17 13:56:12 centos7 systemd: Starting Network Manager Wait Online...
+Mar 17 13:56:12 centos7 NetworkManager[638]: <info>  [1742234172.2220] bus-manager: acquired D-Bus service "org.freedesktop.NetworkManager"
+Mar 17 13:56:12 centos7 NetworkManager[638]: <info>  [1742234172.2241] manager[0x561c4dcda030]: monitoring kernel firmware directory '/lib/firmware'.
+Mar 17 13:56:12 centos7 dbus[616]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service'
+Mar 17 13:56:12 centos7 systemd: Starting Hostname Service...
+Mar 17 13:56:12 centos7 dbus[616]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Mar 17 13:56:12 centos7 systemd: Started Hostname Service.
+Mar 17 13:56:12 centos7 NetworkManager[638]: <info>  [1742234172.2534] hostname: hostname: using hostnamed
+Mar 17 13:56:12 centos7 NetworkManager[638]: <info>  [1742234172.2534] hostname: hostname changed from (none) to "centos7"
+Mar 17 13:56:12 centos7 NetworkManager[638]: <info>  [1742234172.2537] dns-mgr[0x561c4dcbe220]: init: dns=default,systemd-resolved rc-manager=file
+Mar 17 13:56:12 centos7 dbus[616]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Mar 17 13:56:12 centos7 systemd: Starting Network Manager Script Dispatcher Service...
+Mar 17 13:56:12 centos7 dbus[616]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Mar 17 13:56:12 centos7 systemd: Started Network Manager Script Dispatcher Service.
+Mar 17 13:56:12 centos7 NetworkManager[638]: <info>  [1742234172.2786] settings: Loaded settings plugin: SettingsPluginIfcfg ("/usr/lib64/NetworkManager/1.18.8-2.el7_9/libnm-settings-plugin-ifcfg-rh.so")
+Mar 17 13:56:12 centos7 NetworkManager[638]: <info>  [1742234172.2796] settings: Loaded settings plugin: NMSIbftPlugin ("/usr/lib64/NetworkManager/1.18.8-2.el7_9/libnm-settings-plugin-ibft.so")
+Mar 17 13:56:12 centos7 NetworkManager[638]: <info>  [1742234172.2796] settings: Loaded settings plugin: NMSKeyfilePlugin (internal)
+Mar 17 13:56:12 centos7 NetworkManager[638]: <info>  [1742234172.2811] ifcfg-rh: new connection /etc/sysconfig/network-scripts/ifcfg-eth1 (9c92fad9-6ecb-3e6c-eb4d-8a47c6f50c04,"System eth1")
+Mar 17 13:56:12 centos7 NetworkManager[638]: <info>  [1742234172.2814] ifcfg-rh: new connection /etc/sysconfig/network-scripts/ifcfg-eth0 (5fb06bd0-0bb0-7ffb-45f1-d6edd65f3e03,"System eth0")
+Mar 17 13:56:12 centos7 NetworkManager[638]: <info>  [1742234172.2851] manager: rfkill: Wi-Fi enabled by radio killswitch; enabled by state file
+Mar 17 13:56:12 centos7 NetworkManager[638]: <info>  [1742234172.2852] manager: rfkill: WWAN enabled by radio killswitch; enabled by state file
+Mar 17 13:56:12 centos7 NetworkManager[638]: <info>  [1742234172.2852] manager: Networking is enabled by state file
+Mar 17 13:56:12 centos7 NetworkManager[638]: <info>  [1742234172.2865] dhcp-init: Using DHCP client 'dhclient'
+Mar 17 13:56:12 centos7 nm-dispatcher: req:1 'hostname': new request (3 scripts)
+Mar 17 13:56:12 centos7 nm-dispatcher: req:1 'hostname': start running ordered scripts...
+Mar 17 13:56:12 centos7 NetworkManager[638]: <info>  [1742234172.2894] Loaded device plugin: NMWifiFactory (/usr/lib64/NetworkManager/1.18.8-2.el7_9/libnm-device-plugin-wifi.so)
+Mar 17 13:56:12 centos7 NetworkManager[638]: <info>  [1742234172.2919] Loaded device plugin: NMTeamFactory (/usr/lib64/NetworkManager/1.18.8-2.el7_9/libnm-device-plugin-team.so)
+Mar 17 13:56:12 centos7 NetworkManager[638]: <info>  [1742234172.2929] device (lo): carrier: link connected
+Mar 17 13:56:12 centos7 NetworkManager[638]: <info>  [1742234172.2931] manager: (lo): new Generic device (/org/freedesktop/NetworkManager/Devices/1)
+Mar 17 13:56:12 centos7 NetworkManager[638]: <info>  [1742234172.2939] manager: (eth0): new Ethernet device (/org/freedesktop/NetworkManager/Devices/2)
+Mar 17 13:56:12 centos7 NetworkManager[638]: <info>  [1742234172.2946] device (eth0): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+Mar 17 13:56:12 centos7 kernel: IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+Mar 17 13:56:12 centos7 kernel: IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+Mar 17 13:56:12 centos7 nm-dispatcher: req:2 'connectivity-change': new request (3 scripts)
+Mar 17 13:56:12 centos7 NetworkManager[638]: <info>  [1742234172.3123] manager: (eth1): new Ethernet device (/org/freedesktop/NetworkManager/Devices/3)
+Mar 17 13:56:12 centos7 NetworkManager[638]: <info>  [1742234172.3134] device (eth1): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+Mar 17 13:56:12 centos7 kernel: IPv6: ADDRCONF(NETDEV_UP): eth1: link is not ready
+Mar 17 13:56:12 centos7 kernel: IPv6: ADDRCONF(NETDEV_UP): eth1: link is not ready
+Mar 17 13:56:12 centos7 kernel: snd_intel8x0 0000:00:05.0: intel8x0_measure_ac97_clock: measured 50726 usecs (2400 samples)
+Mar 17 13:56:12 centos7 kernel: snd_intel8x0 0000:00:05.0: clocking to 48696
+Mar 17 13:56:12 centos7 kernel: [drm] VRAM 00800000
+Mar 17 13:56:12 centos7 systemd: Reached target Sound Card.
+Mar 17 13:56:12 centos7 kernel: [TTM] Zone  kernel: Available graphics memory: 507192 kiB
+Mar 17 13:56:12 centos7 kernel: [TTM] Initializing pool allocator
+Mar 17 13:56:12 centos7 kernel: [TTM] Initializing DMA pool allocator
+Mar 17 13:56:12 centos7 kernel: fbcon: vboxdrmfb (fb0) is primary device
+Mar 17 13:56:12 centos7 kernel: Console: switching to colour frame buffer device 100x37
+Mar 17 13:56:12 centos7 kernel: vboxvideo 0000:00:02.0: fb0: vboxdrmfb frame buffer device
+Mar 17 13:56:12 centos7 kernel: [drm] Initialized vboxvideo 1.0.0 20130823 for 0000:00:02.0 on minor 0
+Mar 17 13:56:12 centos7 nm-dispatcher: req:2 'connectivity-change': start running ordered scripts...
+Mar 17 13:56:12 centos7 vboxadd: VirtualBox Guest Additions: Starting.
+Mar 17 13:56:12 centos7 systemd: Started vboxadd.service.
+Mar 17 13:56:12 centos7 systemd: Starting vboxadd-service.service...
+Mar 17 13:56:12 centos7 vboxadd-service: vboxadd-service.sh: Starting VirtualBox Guest Addition service.
+Mar 17 13:56:12 centos7 vboxadd-service.sh: Starting VirtualBox Guest Addition service.
+Mar 17 13:56:12 centos7 kernel: 17:56:12.630854 main     VBoxService 7.1.6 r167084 (verbosity: 0) linux.amd64 (Jan 21 2025 13:48:22) release log#01217:56:12.630858 main     Log opened 2025-03-17T17:56:12.630836000Z
+Mar 17 13:56:12 centos7 kernel: 17:56:12.631006 main     OS Product: Linux
+Mar 17 13:56:12 centos7 kernel: 17:56:12.631041 main     OS Release: 3.10.0-1160.119.1.el7.x86_64
+Mar 17 13:56:12 centos7 kernel: 17:56:12.631069 main     OS Version: #1 SMP Tue Jun 4 14:43:51 UTC 2024
+Mar 17 13:56:12 centos7 kernel: 17:56:12.631098 main     Executable: /opt/VBoxGuestAdditions-7.1.6/sbin/VBoxService#01217:56:12.631099 main     Process ID: 870#01217:56:12.631099 main     Package type: LINUX_64BITS_GENERIC
+Mar 17 13:56:12 centos7 kernel: 17:56:12.632056 main     7.1.6 r167084 started. Verbose level = 0
+Mar 17 13:56:12 centos7 vboxadd-service.sh: VirtualBox Guest Addition service started.
+Mar 17 13:56:12 centos7 systemd: Started vboxadd-service.service.
+Mar 17 13:56:12 centos7 kernel: 17:56:12.636821 main     vbglR3GuestCtrlDetectPeekGetCancelSupport: Supported (#1)
+Mar 17 13:56:12 centos7 kernel: 17:56:12.642620 vminfo   Error: Unable to connect to system D-Bus (1/3): D-Bus not installed
+Mar 17 13:56:12 centos7 systemd: Started Builds and install new kernel modules through DKMS.
+Mar 17 13:56:14 centos7 kernel: e1000: eth0 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Mar 17 13:56:14 centos7 kernel: e1000: eth1 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Mar 17 13:56:14 centos7 kernel: IPv6: ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+Mar 17 13:56:14 centos7 kernel: IPv6: ADDRCONF(NETDEV_CHANGE): eth1: link becomes ready
+Mar 17 13:56:14 centos7 NetworkManager[638]: <info>  [1742234174.3867] device (eth0): carrier: link connected
+Mar 17 13:56:14 centos7 NetworkManager[638]: <info>  [1742234174.3870] device (eth1): carrier: link connected
+Mar 17 13:56:14 centos7 NetworkManager[638]: <info>  [1742234174.3871] device (eth0): state change: unavailable -> disconnected (reason 'carrier-changed', sys-iface-state: 'managed')
+Mar 17 13:56:14 centos7 NetworkManager[638]: <info>  [1742234174.3883] device (eth1): state change: unavailable -> disconnected (reason 'carrier-changed', sys-iface-state: 'managed')
+Mar 17 13:56:14 centos7 NetworkManager[638]: <info>  [1742234174.3912] policy: auto-activating connection 'System eth0' (5fb06bd0-0bb0-7ffb-45f1-d6edd65f3e03)
+Mar 17 13:56:14 centos7 NetworkManager[638]: <info>  [1742234174.3917] policy: auto-activating connection 'System eth1' (9c92fad9-6ecb-3e6c-eb4d-8a47c6f50c04)
+Mar 17 13:56:14 centos7 NetworkManager[638]: <info>  [1742234174.3935] device (eth0): Activation: starting connection 'System eth0' (5fb06bd0-0bb0-7ffb-45f1-d6edd65f3e03)
+Mar 17 13:56:14 centos7 NetworkManager[638]: <info>  [1742234174.3936] device (eth1): Activation: starting connection 'System eth1' (9c92fad9-6ecb-3e6c-eb4d-8a47c6f50c04)
+Mar 17 13:56:14 centos7 NetworkManager[638]: <info>  [1742234174.3937] device (eth0): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Mar 17 13:56:14 centos7 NetworkManager[638]: <info>  [1742234174.3938] manager: NetworkManager state is now CONNECTING
+Mar 17 13:56:14 centos7 NetworkManager[638]: <info>  [1742234174.3940] device (eth1): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Mar 17 13:56:14 centos7 NetworkManager[638]: <info>  [1742234174.3944] device (eth0): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Mar 17 13:56:14 centos7 NetworkManager[638]: <info>  [1742234174.3957] device (eth1): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Mar 17 13:56:14 centos7 NetworkManager[638]: <info>  [1742234174.3973] device (eth0): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Mar 17 13:56:14 centos7 NetworkManager[638]: <info>  [1742234174.3986] dhcp4 (eth0): activation: beginning transaction (timeout in 45 seconds)
+Mar 17 13:56:14 centos7 NetworkManager[638]: <info>  [1742234174.4035] dhcp4 (eth0): dhclient started with pid 891
+Mar 17 13:56:14 centos7 NetworkManager[638]: <info>  [1742234174.4045] device (eth1): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Mar 17 13:56:14 centos7 NetworkManager[638]: <info>  [1742234174.4079] device (eth1): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Mar 17 13:56:14 centos7 NetworkManager[638]: <info>  [1742234174.4106] device (eth1): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Mar 17 13:56:14 centos7 NetworkManager[638]: <info>  [1742234174.4109] device (eth1): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Mar 17 13:56:14 centos7 NetworkManager[638]: <info>  [1742234174.4216] device (eth1): Activation: successful, device activated.
+Mar 17 13:56:14 centos7 nm-dispatcher: req:3 'up' [eth1]: new request (3 scripts)
+Mar 17 13:56:14 centos7 nm-dispatcher: req:3 'up' [eth1]: start running ordered scripts...
+Mar 17 13:56:14 centos7 nm-dispatcher: req:4 'connectivity-change': new request (3 scripts)
+Mar 17 13:56:14 centos7 dhclient[891]: DHCPREQUEST on eth0 to 255.255.255.255 port 67 (xid=0x11e1b7d7)
+Mar 17 13:56:14 centos7 dhclient[891]: DHCPACK from 10.0.2.2 (xid=0x11e1b7d7)
+Mar 17 13:56:14 centos7 nm-dispatcher: req:4 'connectivity-change': start running ordered scripts...
+Mar 17 13:56:14 centos7 NetworkManager[638]: <info>  [1742234174.4463] dhcp4 (eth0):   address 10.0.2.15
+Mar 17 13:56:14 centos7 NetworkManager[638]: <info>  [1742234174.4464] dhcp4 (eth0):   plen 24 (255.255.255.0)
+Mar 17 13:56:14 centos7 NetworkManager[638]: <info>  [1742234174.4464] dhcp4 (eth0):   gateway 10.0.2.2
+Mar 17 13:56:14 centos7 NetworkManager[638]: <info>  [1742234174.4464] dhcp4 (eth0):   lease time 86400
+Mar 17 13:56:14 centos7 NetworkManager[638]: <info>  [1742234174.4464] dhcp4 (eth0):   hostname 'vbox'
+Mar 17 13:56:14 centos7 NetworkManager[638]: <info>  [1742234174.4464] dhcp4 (eth0):   nameserver '10.0.2.3'
+Mar 17 13:56:14 centos7 NetworkManager[638]: <info>  [1742234174.4464] dhcp4 (eth0):   domain name 'home'
+Mar 17 13:56:14 centos7 NetworkManager[638]: <info>  [1742234174.4464] dhcp4 (eth0): state changed unknown -> bound
+Mar 17 13:56:14 centos7 NetworkManager[638]: <info>  [1742234174.4469] device (eth0): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Mar 17 13:56:14 centos7 NetworkManager[638]: <info>  [1742234174.4473] device (eth0): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Mar 17 13:56:14 centos7 NetworkManager[638]: <info>  [1742234174.4474] device (eth0): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Mar 17 13:56:14 centos7 NetworkManager[638]: <info>  [1742234174.4476] manager: NetworkManager state is now CONNECTED_LOCAL
+Mar 17 13:56:14 centos7 dhclient[891]: bound to 10.0.2.15 -- renewal in 33260 seconds.
+Mar 17 13:56:14 centos7 NetworkManager[638]: <info>  [1742234174.4529] manager: NetworkManager state is now CONNECTED_SITE
+Mar 17 13:56:14 centos7 NetworkManager[638]: <info>  [1742234174.4530] policy: set 'System eth0' (eth0) as default for IPv4 routing and DNS
+Mar 17 13:56:14 centos7 NetworkManager[638]: <info>  [1742234174.4560] device (eth0): Activation: successful, device activated.
+Mar 17 13:56:14 centos7 NetworkManager[638]: <info>  [1742234174.4564] manager: NetworkManager state is now CONNECTED_GLOBAL
+Mar 17 13:56:14 centos7 NetworkManager[638]: <info>  [1742234174.4566] manager: startup complete
+Mar 17 13:56:14 centos7 nm-dispatcher: req:5 'up' [eth0]: new request (3 scripts)
+Mar 17 13:56:14 centos7 nm-dispatcher: req:6 'connectivity-change': new request (3 scripts)
+Mar 17 13:56:14 centos7 systemd: Started Network Manager Wait Online.
+Mar 17 13:56:14 centos7 systemd: Starting LSB: Bring up/down networking...
+Mar 17 13:56:14 centos7 nm-dispatcher: req:5 'up' [eth0]: start running ordered scripts...
+Mar 17 13:56:14 centos7 nm-dispatcher: req:6 'connectivity-change': start running ordered scripts...
+Mar 17 13:56:14 centos7 network: Bringing up loopback interface:  [  OK  ]
+Mar 17 13:56:14 centos7 network: Bringing up interface eth0:  [  OK  ]
+Mar 17 13:56:14 centos7 network: Bringing up interface eth1:  [  OK  ]
+Mar 17 13:56:14 centos7 systemd: Started LSB: Bring up/down networking.
+Mar 17 13:56:14 centos7 systemd: Reached target Network.
+Mar 17 13:56:14 centos7 systemd: Starting OpenSSH server daemon...
+Mar 17 13:56:14 centos7 systemd: Starting Postfix Mail Transport Agent...
+Mar 17 13:56:14 centos7 systemd: Reached target Network is Online.
+Mar 17 13:56:14 centos7 systemd: Starting System Logging Service...
+Mar 17 13:56:14 centos7 systemd: Starting Notify NFS peers of a restart...
+Mar 17 13:56:14 centos7 systemd: Starting Dynamic System Tuning Daemon...
+Mar 17 13:56:14 centos7 systemd: Mounting /vagrant...
+Mar 17 13:56:14 centos7 sm-notify[1138]: Version 1.3.0 starting
+Mar 17 13:56:14 centos7 systemd: Started Notify NFS peers of a restart.
+Mar 17 13:56:14 centos7 systemd: Started OpenSSH server daemon.
+Mar 17 13:56:14 centos7 rsyslogd: [origin software="rsyslogd" swVersion="8.24.0-57.el7_9.3" x-pid="1137" x-info="http://www.rsyslog.com"] start
+Mar 17 13:56:14 centos7 systemd: Started System Logging Service.
+Mar 17 13:56:14 centos7 kernel: vboxsf: g_fHostFeatures=0x8000000f g_fSfFeatures=0x1 g_uSfLastFunction=29
+Mar 17 13:56:14 centos7 kernel: vboxsf: Successfully loaded version 7.1.6 r167084
+Mar 17 13:56:14 centos7 kernel: vboxsf: Successfully loaded version 7.1.6 r167084 on 3.10.0-1160.119.1.el7.x86_64 SMP mod_unload modversions  (LINUX_VERSION_CODE=0x30a00)
+Mar 17 13:56:14 centos7 mount: /sbin/mount.vboxsf: shared folder '/vagrant' was not found (check VM settings / spelling)
+Mar 17 13:56:14 centos7 systemd: vagrant.mount mount process exited, code=exited status=1
+Mar 17 13:56:14 centos7 systemd: Failed to mount /vagrant.
+Mar 17 13:56:14 centos7 systemd: Dependency failed for Remote File Systems.
+Mar 17 13:56:14 centos7 kernel: vboxsf: SHFL_FN_MAP_FOLDER failed for '/vagrant': share not found
+Mar 17 13:56:14 centos7 systemd: Job remote-fs.target/start failed with result 'dependency'.
+Mar 17 13:56:14 centos7 systemd: Unit vagrant.mount entered failed state.
+Mar 17 13:56:14 centos7 systemd: Starting Crash recovery kernel arming...
+Mar 17 13:56:14 centos7 systemd: Starting Permit User Sessions...
+Mar 17 13:56:14 centos7 systemd: Started Permit User Sessions.
+Mar 17 13:56:14 centos7 systemd: Starting Wait for Plymouth Boot Screen to Quit...
+Mar 17 13:56:14 centos7 systemd: Starting Terminate Plymouth Boot Screen...
+Mar 17 13:56:14 centos7 systemd: Started Command Scheduler.
+Mar 17 13:56:14 centos7 systemd: Received SIGRTMIN+20 from PID 276 (plymouthd).
+Mar 17 13:56:14 centos7 kdumpctl: No memory reserved for crash kernel
+Mar 17 13:56:14 centos7 kdumpctl: Starting kdump: [FAILED]
+Mar 17 13:56:14 centos7 systemd: kdump.service: main process exited, code=exited, status=1/FAILURE
+Mar 17 13:56:14 centos7 systemd: Failed to start Crash recovery kernel arming.
+Mar 17 13:56:14 centos7 systemd: Unit kdump.service entered failed state.
+Mar 17 13:56:14 centos7 systemd: kdump.service failed.
+Mar 17 13:56:14 centos7 systemd: Received SIGRTMIN+21 from PID 276 (plymouthd).
+Mar 17 13:56:14 centos7 systemd: Started Wait for Plymouth Boot Screen to Quit.
+Mar 17 13:56:14 centos7 systemd: Started Getty on tty1.
+Mar 17 13:56:14 centos7 systemd: Reached target Login Prompts.
+Mar 17 13:56:14 centos7 systemd: Started Terminate Plymouth Boot Screen.
+Mar 17 13:56:14 centos7 kernel: floppy0: no floppy controllers found
+Mar 17 13:56:14 centos7 kernel: work still pending
+Mar 17 13:56:14 centos7 systemd: Started Dynamic System Tuning Daemon.
+Mar 17 13:56:15 centos7 systemd: Started Postfix Mail Transport Agent.
+Mar 17 13:56:15 centos7 systemd: Reached target Multi-User System.
+Mar 17 13:56:15 centos7 systemd: Starting Update UTMP about System Runlevel Changes...
+Mar 17 13:56:15 centos7 systemd: Started Update UTMP about System Runlevel Changes.
+Mar 17 13:56:15 centos7 systemd: Startup finished in 469ms (kernel) + 2.142s (initrd) + 3.406s (userspace) = 6.017s.
+Mar 17 13:56:16 centos7 systemd: Created slice User Slice of vagrant.
+Mar 17 13:56:16 centos7 systemd: Started Session 1 of user vagrant.
+Mar 17 13:56:16 centos7 systemd-logind: New session 1 of user vagrant.
+Mar 17 13:56:16 centos7 NetworkManager[638]: <info>  [1742234176.3827] policy: set 'System eth0' (eth0) as default for IPv6 routing and DNS
+Mar 17 13:56:17 centos7 kernel: 17:56:17.647410 vminfo   Error: Unable to connect to system D-Bus (2/3): D-Bus not installed
+Mar 17 13:56:18 centos7 NetworkManager[638]: <info>  [1742234178.4650] device (eth1): state change: activated -> deactivating (reason 'user-requested', sys-iface-state: 'managed')
+Mar 17 13:56:18 centos7 NetworkManager[638]: <info>  [1742234178.4743] audit: op="device-disconnect" interface="eth1" ifindex=3 pid=2155 uid=0 result="success"
+Mar 17 13:56:18 centos7 NetworkManager[638]: <info>  [1742234178.4744] device (eth1): state change: deactivating -> disconnected (reason 'user-requested', sys-iface-state: 'managed')
+Mar 17 13:56:18 centos7 nm-dispatcher: req:7 'down' [eth1]: new request (3 scripts)
+Mar 17 13:56:18 centos7 nm-dispatcher: req:7 'down' [eth1]: start running ordered scripts...
+Mar 17 13:56:18 centos7 systemd: Stopped Network Manager Wait Online.
+Mar 17 13:56:18 centos7 systemd: Stopping Network Manager Wait Online...
+Mar 17 13:56:18 centos7 systemd: Stopping Network Manager...
+Mar 17 13:56:18 centos7 NetworkManager[638]: <info>  [1742234178.6271] caught SIGTERM, shutting down normally.
+Mar 17 13:56:18 centos7 NetworkManager[638]: <info>  [1742234178.6326] dhcp4 (eth0): canceled DHCP transaction, DHCP client pid 891
+Mar 17 13:56:18 centos7 NetworkManager[638]: <info>  [1742234178.6328] dhcp4 (eth0): state changed bound -> done
+Mar 17 13:56:18 centos7 NetworkManager[638]: <info>  [1742234178.6329] device (eth0): DHCPv4: 480 seconds grace period started
+Mar 17 13:56:18 centos7 NetworkManager[638]: <info>  [1742234178.6335] manager: NetworkManager state is now CONNECTED_SITE
+Mar 17 13:56:18 centos7 nm-dispatcher: req:8 'connectivity-change': new request (3 scripts)
+Mar 17 13:56:18 centos7 nm-dispatcher: req:9 'connectivity-change': new request (3 scripts)
+Mar 17 13:56:18 centos7 NetworkManager[638]: <info>  [1742234178.6390] exiting (success)
+Mar 17 13:56:18 centos7 nm-dispatcher: req:8 'connectivity-change': start running ordered scripts...
+Mar 17 13:56:18 centos7 systemd: Stopped Network Manager.
+Mar 17 13:56:18 centos7 systemd: Starting Network Manager...
+Mar 17 13:56:18 centos7 NetworkManager[2182]: <info>  [1742234178.6589] NetworkManager (version 1.18.8-2.el7_9) is starting... (after a restart)
+Mar 17 13:56:18 centos7 NetworkManager[2182]: <info>  [1742234178.6591] Read config: /etc/NetworkManager/NetworkManager.conf (lib: 10-slaves-order.conf)
+Mar 17 13:56:18 centos7 NetworkManager[2182]: <info>  [1742234178.6662] bus-manager: acquired D-Bus service "org.freedesktop.NetworkManager"
+Mar 17 13:56:18 centos7 systemd: Started Network Manager.
+Mar 17 13:56:18 centos7 NetworkManager[2182]: <info>  [1742234178.6670] manager[0x55aa6f12d060]: monitoring kernel firmware directory '/lib/firmware'.
+Mar 17 13:56:18 centos7 systemd: Starting Network Manager Wait Online...
+Mar 17 13:56:18 centos7 NetworkManager[2182]: <info>  [1742234178.6688] hostname: hostname: using hostnamed
+Mar 17 13:56:18 centos7 NetworkManager[2182]: <info>  [1742234178.6689] hostname: hostname changed from (none) to "centos7"
+Mar 17 13:56:18 centos7 NetworkManager[2182]: <info>  [1742234178.6690] dns-mgr[0x55aa6f111220]: init: dns=default,systemd-resolved rc-manager=file
+Mar 17 13:56:18 centos7 NetworkManager[2182]: <info>  [1742234178.6708] settings: Loaded settings plugin: SettingsPluginIfcfg ("/usr/lib64/NetworkManager/1.18.8-2.el7_9/libnm-settings-plugin-ifcfg-rh.so")
+Mar 17 13:56:18 centos7 NetworkManager[2182]: <info>  [1742234178.6709] settings: Loaded settings plugin: NMSIbftPlugin ("/usr/lib64/NetworkManager/1.18.8-2.el7_9/libnm-settings-plugin-ibft.so")
+Mar 17 13:56:18 centos7 NetworkManager[2182]: <info>  [1742234178.6709] settings: Loaded settings plugin: NMSKeyfilePlugin (internal)
+Mar 17 13:56:18 centos7 NetworkManager[2182]: <info>  [1742234178.6728] ifcfg-rh: new connection /etc/sysconfig/network-scripts/ifcfg-eth1 (9c92fad9-6ecb-3e6c-eb4d-8a47c6f50c04,"System eth1")
+Mar 17 13:56:18 centos7 NetworkManager[2182]: <info>  [1742234178.6737] ifcfg-rh: new connection /etc/sysconfig/network-scripts/ifcfg-eth0 (5fb06bd0-0bb0-7ffb-45f1-d6edd65f3e03,"System eth0")
+Mar 17 13:56:18 centos7 nm-dispatcher: req:9 'connectivity-change': start running ordered scripts...
+Mar 17 13:56:18 centos7 NetworkManager[2182]: <info>  [1742234178.6828] manager: rfkill: Wi-Fi enabled by radio killswitch; enabled by state file
+Mar 17 13:56:18 centos7 NetworkManager[2182]: <info>  [1742234178.6829] manager: rfkill: WWAN enabled by radio killswitch; enabled by state file
+Mar 17 13:56:18 centos7 NetworkManager[2182]: <info>  [1742234178.6829] manager: Networking is enabled by state file
+Mar 17 13:56:18 centos7 NetworkManager[2182]: <info>  [1742234178.6830] dhcp-init: Using DHCP client 'dhclient'
+Mar 17 13:56:18 centos7 NetworkManager[2182]: <info>  [1742234178.6833] Loaded device plugin: NMWifiFactory (/usr/lib64/NetworkManager/1.18.8-2.el7_9/libnm-device-plugin-wifi.so)
+Mar 17 13:56:18 centos7 NetworkManager[2182]: <info>  [1742234178.6839] Loaded device plugin: NMTeamFactory (/usr/lib64/NetworkManager/1.18.8-2.el7_9/libnm-device-plugin-team.so)
+Mar 17 13:56:18 centos7 NetworkManager[2182]: <info>  [1742234178.6846] device (lo): carrier: link connected
+Mar 17 13:56:18 centos7 NetworkManager[2182]: <info>  [1742234178.6848] manager: (lo): new Generic device (/org/freedesktop/NetworkManager/Devices/1)
+Mar 17 13:56:18 centos7 NetworkManager[2182]: <info>  [1742234178.6854] device (eth0): carrier: link connected
+Mar 17 13:56:18 centos7 NetworkManager[2182]: <info>  [1742234178.6856] manager: (eth0): new Ethernet device (/org/freedesktop/NetworkManager/Devices/2)
+Mar 17 13:56:18 centos7 NetworkManager[2182]: <info>  [1742234178.6867] manager: (eth0): assume: will attempt to assume matching connection 'System eth0' (5fb06bd0-0bb0-7ffb-45f1-d6edd65f3e03) (indicated)
+Mar 17 13:56:18 centos7 NetworkManager[2182]: <info>  [1742234178.6868] device (eth0): state change: unmanaged -> unavailable (reason 'connection-assumed', sys-iface-state: 'assume')
+Mar 17 13:56:18 centos7 NetworkManager[2182]: <info>  [1742234178.6875] device (eth0): state change: unavailable -> disconnected (reason 'connection-assumed', sys-iface-state: 'assume')
+Mar 17 13:56:18 centos7 NetworkManager[2182]: <info>  [1742234178.6882] device (eth0): Activation: starting connection 'System eth0' (5fb06bd0-0bb0-7ffb-45f1-d6edd65f3e03)
+Mar 17 13:56:18 centos7 NetworkManager[2182]: <info>  [1742234178.6883] device (eth1): carrier: link connected
+Mar 17 13:56:18 centos7 NetworkManager[2182]: <info>  [1742234178.6885] manager: (eth1): new Ethernet device (/org/freedesktop/NetworkManager/Devices/3)
+Mar 17 13:56:18 centos7 NetworkManager[2182]: <info>  [1742234178.6889] device (eth1): state change: unmanaged -> unavailable (reason 'managed', sys-iface-state: 'external')
+Mar 17 13:56:18 centos7 NetworkManager[2182]: <info>  [1742234178.6919] device (eth0): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'assume')
+Mar 17 13:56:18 centos7 NetworkManager[2182]: <info>  [1742234178.6942] device (eth0): state change: prepare -> config (reason 'none', sys-iface-state: 'assume')
+Mar 17 13:56:18 centos7 NetworkManager[2182]: <info>  [1742234178.6944] device (eth1): state change: unavailable -> disconnected (reason 'none', sys-iface-state: 'managed')
+Mar 17 13:56:18 centos7 NetworkManager[2182]: <info>  [1742234178.6956] policy: auto-activating connection 'System eth1' (9c92fad9-6ecb-3e6c-eb4d-8a47c6f50c04)
+Mar 17 13:56:18 centos7 NetworkManager[2182]: <info>  [1742234178.6959] device (eth1): Activation: starting connection 'System eth1' (9c92fad9-6ecb-3e6c-eb4d-8a47c6f50c04)
+Mar 17 13:56:18 centos7 NetworkManager[2182]: <info>  [1742234178.6959] device (eth1): state change: disconnected -> prepare (reason 'none', sys-iface-state: 'managed')
+Mar 17 13:56:18 centos7 NetworkManager[2182]: <info>  [1742234178.6961] manager: NetworkManager state is now CONNECTING
+Mar 17 13:56:18 centos7 NetworkManager[2182]: <info>  [1742234178.6961] device (eth1): state change: prepare -> config (reason 'none', sys-iface-state: 'managed')
+Mar 17 13:56:18 centos7 nm-dispatcher: req:10 'hostname': new request (3 scripts)
+Mar 17 13:56:18 centos7 nm-dispatcher: req:11 'connectivity-change': new request (3 scripts)
+Mar 17 13:56:18 centos7 NetworkManager[2182]: <info>  [1742234178.7035] device (eth0): state change: config -> ip-config (reason 'none', sys-iface-state: 'assume')
+Mar 17 13:56:18 centos7 NetworkManager[2182]: <info>  [1742234178.7043] dhcp4 (eth0): activation: beginning transaction (timeout in 45 seconds)
+Mar 17 13:56:18 centos7 NetworkManager[2182]: <info>  [1742234178.7081] dhcp4 (eth0): dhclient started with pid 2207
+Mar 17 13:56:18 centos7 NetworkManager[2182]: <info>  [1742234178.7085] device (eth1): state change: config -> ip-config (reason 'none', sys-iface-state: 'managed')
+Mar 17 13:56:18 centos7 NetworkManager[2182]: <info>  [1742234178.7101] device (eth1): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'managed')
+Mar 17 13:56:18 centos7 NetworkManager[2182]: <info>  [1742234178.7105] device (eth1): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'managed')
+Mar 17 13:56:18 centos7 NetworkManager[2182]: <info>  [1742234178.7106] device (eth1): state change: secondaries -> activated (reason 'none', sys-iface-state: 'managed')
+Mar 17 13:56:18 centos7 NetworkManager[2182]: <info>  [1742234178.7108] manager: NetworkManager state is now CONNECTED_LOCAL
+Mar 17 13:56:18 centos7 NetworkManager[2182]: <info>  [1742234178.7166] policy: set 'System eth0' (eth0) as default for IPv4 routing and DNS
+Mar 17 13:56:18 centos7 NetworkManager[2182]: <info>  [1742234178.7167] policy: set 'System eth0' (eth0) as default for IPv6 routing and DNS
+Mar 17 13:56:18 centos7 NetworkManager[2182]: <info>  [1742234178.7167] device (eth1): Activation: successful, device activated.
+Mar 17 13:56:18 centos7 nm-dispatcher: req:12 'up' [eth1]: new request (3 scripts)
+Mar 17 13:56:18 centos7 nm-dispatcher: req:10 'hostname': start running ordered scripts...
+Mar 17 13:56:18 centos7 dhclient[2207]: DHCPREQUEST on eth0 to 255.255.255.255 port 67 (xid=0x1b435d4b)
+Mar 17 13:56:18 centos7 dhclient[2207]: DHCPACK from 10.0.2.2 (xid=0x1b435d4b)
+Mar 17 13:56:18 centos7 NetworkManager[2182]: <info>  [1742234178.7351] dhcp4 (eth0):   address 10.0.2.15
+Mar 17 13:56:18 centos7 NetworkManager[2182]: <info>  [1742234178.7351] dhcp4 (eth0):   plen 24 (255.255.255.0)
+Mar 17 13:56:18 centos7 NetworkManager[2182]: <info>  [1742234178.7351] dhcp4 (eth0):   gateway 10.0.2.2
+Mar 17 13:56:18 centos7 NetworkManager[2182]: <info>  [1742234178.7351] dhcp4 (eth0):   lease time 86400
+Mar 17 13:56:18 centos7 NetworkManager[2182]: <info>  [1742234178.7351] dhcp4 (eth0):   hostname 'vbox'
+Mar 17 13:56:18 centos7 NetworkManager[2182]: <info>  [1742234178.7351] dhcp4 (eth0):   nameserver '10.0.2.3'
+Mar 17 13:56:18 centos7 NetworkManager[2182]: <info>  [1742234178.7352] dhcp4 (eth0):   domain name 'home'
+Mar 17 13:56:18 centos7 NetworkManager[2182]: <info>  [1742234178.7352] dhcp4 (eth0): state changed unknown -> bound
+Mar 17 13:56:18 centos7 NetworkManager[2182]: <info>  [1742234178.7360] device (eth0): state change: ip-config -> ip-check (reason 'none', sys-iface-state: 'assume')
+Mar 17 13:56:18 centos7 NetworkManager[2182]: <info>  [1742234178.7371] device (eth0): state change: ip-check -> secondaries (reason 'none', sys-iface-state: 'assume')
+Mar 17 13:56:18 centos7 NetworkManager[2182]: <info>  [1742234178.7372] device (eth0): state change: secondaries -> activated (reason 'none', sys-iface-state: 'assume')
+Mar 17 13:56:18 centos7 NetworkManager[2182]: <info>  [1742234178.7375] manager: NetworkManager state is now CONNECTED_SITE
+Mar 17 13:56:18 centos7 dhclient[2207]: bound to 10.0.2.15 -- renewal in 40726 seconds.
+Mar 17 13:56:18 centos7 nm-dispatcher: req:11 'connectivity-change': start running ordered scripts...
+Mar 17 13:56:18 centos7 NetworkManager[2182]: <info>  [1742234178.7470] device (eth0): Activation: successful, device activated.
+Mar 17 13:56:18 centos7 NetworkManager[2182]: <info>  [1742234178.7474] manager: NetworkManager state is now CONNECTED_GLOBAL
+Mar 17 13:56:18 centos7 NetworkManager[2182]: <info>  [1742234178.7481] manager: startup complete
+Mar 17 13:56:18 centos7 nm-dispatcher: req:13 'up' [eth0]: new request (3 scripts)
+Mar 17 13:56:18 centos7 nm-dispatcher: req:14 'connectivity-change': new request (3 scripts)
+Mar 17 13:56:18 centos7 systemd: Started Network Manager Wait Online.
+Mar 17 13:56:18 centos7 nm-dispatcher: req:12 'up' [eth1]: start running ordered scripts...
+Mar 17 13:56:18 centos7 nm-dispatcher: req:13 'up' [eth0]: start running ordered scripts...
+Mar 17 13:56:18 centos7 nm-dispatcher: req:14 'connectivity-change': start running ordered scripts...
+Mar 17 13:55:53 centos7 chronyd[632]: Selected source 185.201.254.21
+Mar 17 13:55:53 centos7 chronyd[632]: System clock wrong by -26.132418 seconds, adjustment started
+Mar 17 13:55:53 centos7 chronyd[632]: System clock was stepped by -26.132418 seconds
+Mar 17 13:55:53 centos7 systemd: Time has been changed
+Mar 17 13:55:53 centos7 dhclient[2207]: DHCPREQUEST on eth0 to 255.255.255.255 port 67 (xid=0x1f2e77fe)
+Mar 17 13:55:53 centos7 dhclient[2207]: System time has been changed. Unable to use existing leases. Restarting
+Mar 17 13:55:53 centos7 dhclient[2207]: DHCPACK from 10.0.2.2 (xid=0x1f2e77fe)
+Mar 17 13:55:53 centos7 NetworkManager[2182]: <info>  [1742234153.6201] dhcp4 (eth0):   address 10.0.2.15
+Mar 17 13:55:53 centos7 NetworkManager[2182]: <info>  [1742234153.6201] dhcp4 (eth0):   plen 24 (255.255.255.0)
+Mar 17 13:55:53 centos7 NetworkManager[2182]: <info>  [1742234153.6201] dhcp4 (eth0):   gateway 10.0.2.2
+Mar 17 13:55:53 centos7 NetworkManager[2182]: <info>  [1742234153.6202] dhcp4 (eth0):   lease time 86400
+Mar 17 13:55:53 centos7 NetworkManager[2182]: <info>  [1742234153.6202] dhcp4 (eth0):   hostname 'vbox'
+Mar 17 13:55:53 centos7 NetworkManager[2182]: <info>  [1742234153.6202] dhcp4 (eth0):   nameserver '10.0.2.3'
+Mar 17 13:55:53 centos7 NetworkManager[2182]: <info>  [1742234153.6202] dhcp4 (eth0):   domain name 'home'
+Mar 17 13:55:53 centos7 NetworkManager[2182]: <info>  [1742234153.6202] dhcp4 (eth0): state changed bound -> bound
+Mar 17 13:55:53 centos7 nm-dispatcher: req:15 'dhcp4-change' [eth0]: new request (3 scripts)
+Mar 17 13:55:53 centos7 nm-dispatcher: req:15 'dhcp4-change' [eth0]: start running ordered scripts...
+Mar 17 13:55:53 centos7 dhclient[2207]: bound to 10.0.2.15 -- renewal in 40502 seconds.
+Mar 17 13:55:54 centos7 systemd-logind: Removed session 1.
+Mar 17 13:55:54 centos7 systemd: Removed slice User Slice of vagrant.
+Mar 17 13:55:56 centos7 kernel: 17:55:56.518809 vminfo   Error: Unable to connect to system D-Bus (3/3): D-Bus not installed
+Mar 17 13:56:05 centos7 systemd: Created slice User Slice of vagrant.
+Mar 17 13:56:05 centos7 systemd: Started Session 2 of user vagrant.
+Mar 17 13:56:05 centos7 systemd-logind: New session 2 of user vagrant.
+Mar 17 14:00:01 centos7 systemd: Created slice User Slice of root.
+Mar 17 14:00:01 centos7 systemd: Started Session 3 of user root.
+Mar 17 14:00:01 centos7 systemd: Removed slice User Slice of root.
