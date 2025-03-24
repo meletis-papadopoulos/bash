@@ -21,7 +21,7 @@ else
   read -p "Please provide a description for the user: " description
   read -p "Do you want to specify the user id (y/n)? " reply
   if [[ ${reply} == "y" ]]; then
-    read -p "Please enter the UID... " uid
+    read -p "Please enter the UID: " uid
     useradd ${user_name} -c "${description}" -u ${uid}
   elif [[ ${reply} == "n" ]]; then
     echo "A user id 'UID' will be provided automatically!"

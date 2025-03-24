@@ -12,7 +12,7 @@ if [[ ${UID} -ne 0 ]]; then
   exit 1
 fi
 
-it_group="meletis.papadopoulos@it.com,jonny.locke@cloud.com"
+it_group="meletis.papadopoulos@cloud.com,john.doe@cloud.com"
 
 if [[ -e ${file} ]]; then
   cat ${file} | sort | uniq | mail -s "syslog messages..." ${it_group}

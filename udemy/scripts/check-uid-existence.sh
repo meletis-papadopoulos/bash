@@ -21,14 +21,14 @@ else
   read -p "Please provide a description for the user: " description
   read -p "Do you want to specify the user id (y/n)? " reply
   if [[ ${reply} == "y" ]]; then
-    read -p "Please enter the UID... " uid
+    read -p "Please enter the UID: " uid
     # Check if UID already exists
     check_uid_existence="$(grep -i "${uid}" /etc/passwd | awk -F ":" {'print $3}')"
     if [[ ${check_uid_existence} ]]; then
       echo "UID '${uid}' is already taken. Please choose a different UID"
       exit 1
     else
-      echo "UID '${uid}' is available"
+      # UID is available
       echo "Creating user... '${user_name}'"
       useradd ${user_name} -c "${description}" -u ${uid}
       fi

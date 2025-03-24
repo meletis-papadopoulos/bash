@@ -10,9 +10,16 @@ if [[ ${UID} -ne 0 ]]; then
 fi
 
 read -p "Please provide a username: " user_name
-printf "\n"
 
-useradd ${user_name}
-echo "Account for user ${user_name} has been created"
+check_user_existence="$(grep -i ${user_name} /etc/passwd)"
+
+# If string is not empty, user exists!
+if [[ ! -z ${check_user_existence} ]]; then
+  echo "Error: Username '${user_name}' already exist!"
+  exit 1
+else
+  useradd ${user_name}
+  echo "Account for user ${user_name} has been created"
+fi
 
 exit 0
