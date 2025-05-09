@@ -1,6 +1,0 @@
-#!/usr/bin/env bash
-# Author: Meletis Papadopoulos
-# Date: 09.03.25
-# Description: 
-
-exit 0

@@ -1,3 +1,2 @@
-#bash
-
-Various shell scripts (i.e. KodeKloud, Udemy, O'reilly)
+# Bash Scripting
+Shell scripts from different sources (i.e. KodeKloud, O'Reilly, Packt and Udemy)

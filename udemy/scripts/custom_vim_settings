@@ -1,0 +1,10 @@
+" Custom Vim settings
+set ai
+set nu
+set et
+set ts=2
+set sw=2
+syntax enable
+colorscheme default
+set background=dark
+set visualbell
